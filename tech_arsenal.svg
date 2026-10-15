@@ -1,0 +1,335 @@
+<svg viewBox="0 0 1320 800" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <radialGradient id="bgGrad" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#071224"/>
+    <stop offset="100%" stop-color="#02060d"/>
+  </radialGradient>
+  <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#ffffff" stop-opacity="0.01"/>
+  </linearGradient>
+  <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#000000" flood-opacity="0.5"/>
+  </filter>
+  <filter id="blurFilter" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="55"/>
+  </filter>
+  <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#22d3ee" stroke-opacity="0.04" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<style>
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+  .title { font-weight: 800; font-size: 26px; fill: #ffffff; letter-spacing: 1.5px; filter: url(#textGlow); }
+  .subtitle { font-weight: 700; font-size: 14.5px; letter-spacing: 1.5px; }
+  .item-text { font-weight: 600; font-size: 15px; fill: #E0F2FE; }
+  .glass-card { fill: url(#glassGrad); stroke: rgba(56, 189, 248, 0.2); stroke-width: 1.4; rx: 16; filter: url(#softShadow); }
+  
+  /* Loading Sequence */
+  .dashboard { opacity: 0; animation: fadeIn 1.2s ease forwards; animation-delay: 0.3s; }
+  @keyframes fadeIn { to { opacity: 1; } }
+</style>
+
+<!-- Background -->
+<rect width="1320" height="800" fill="url(#bgGrad)"/>
+
+<!-- Ambient Nebula Orbs -->
+<circle cx="240" cy="180" r="280" fill="#38bdf8" opacity="0.12" filter="url(#blurFilter)">
+  <animate attributeName="cx" values="180; 450; 180" dur="16s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="180; 600; 180" dur="20s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1080" cy="520" r="320" fill="#a855f7" opacity="0.10" filter="url(#blurFilter)">
+  <animate attributeName="cx" values="1080; 800; 1080" dur="18s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="520; 250; 520" dur="22s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Animated Tech Grid -->
+<rect x="-40" y="-40" width="1400" height="880" fill="url(#grid)">
+  <animateTransform attributeName="transform" type="translate" values="0,0; -40,40" dur="10s" repeatCount="indefinite" />
+</rect>
+
+<g class="dashboard">
+
+<!-- Header Section -->
+<text x="40" y="80" class="mono title">TECH_ARSENAL<tspan fill="#38bdf8">.manifest()</tspan></text>
+<rect x="40" y="105" width="1240" height="1.5" fill="#38bdf8" opacity="0.2"/>
+<circle cx="1235" cy="74" r="5" fill="#10b981">
+  <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="1250" y="78" class="mono" font-size="13" font-weight="bold" fill="#10b981" letter-spacing="1">SYSTEM READY</text>
+
+<!-- ════════════════════════ ROW 1 (y = 145) ════════════════════════ -->
+
+<!-- Card 1: AI & AGENTIC -->
+<g transform="translate(40, 145)">
+  <rect width="230" height="250" class="glass-card" stroke="#c084fc" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#c084fc" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#c084fc" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#c084fc">AGENTIC &amp; AI</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#c084fc"/>
+    <text x="26" y="12" class="item-text">Agentic AI Workflows</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#c084fc"/>
+    <text x="26" y="12" class="item-text">Generative AI</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#c084fc"/>
+    <text x="26" y="12" class="item-text">Autonomous AI Agents</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#c084fc"/>
+    <text x="26" y="12" class="item-text">Prompt Engineering</text>
+  </g>
+</g>
+
+<!-- Card 2: FRONTEND -->
+<g transform="translate(292, 145)">
+  <rect width="230" height="250" class="glass-card" stroke="#38bdf8" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#38bdf8" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#38bdf8" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#38bdf8">FRONTEND</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#38bdf8"/>
+    <text x="26" y="12" class="item-text">React.js (SPA Architecture)</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#38bdf8"/>
+    <text x="26" y="12" class="item-text">JavaScript (ES6+)</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#38bdf8"/>
+    <text x="26" y="12" class="item-text">TypeScript</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#38bdf8"/>
+    <text x="26" y="12" class="item-text">HTML5 / CSS3 / Bootstrap</text>
+  </g>
+</g>
+
+<!-- Card 3: BACKEND & APIS -->
+<g transform="translate(544, 145)">
+  <rect width="230" height="250" class="glass-card" stroke="#34d399" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#34d399" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#34d399" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#34d399">BACKEND &amp; APIS</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#34d399"/>
+    <text x="26" y="12" class="item-text">Java (Core &amp; Adv)</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#34d399"/>
+    <text x="26" y="12" class="item-text">Spring Boot</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#34d399"/>
+    <text x="26" y="12" class="item-text">RESTful APIs &amp; HTTP/S</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#34d399"/>
+    <text x="26" y="12" class="item-text">JWT Authentication</text>
+  </g>
+</g>
+
+<!-- Card 4: DATABASES & STORAGE -->
+<g transform="translate(796, 145)">
+  <rect width="230" height="250" class="glass-card" stroke="#818cf8" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#818cf8" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#818cf8" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#818cf8">DATABASES</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#818cf8"/>
+    <text x="26" y="12" class="item-text">MySQL Database</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#818cf8"/>
+    <text x="26" y="12" class="item-text">PostgreSQL</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#818cf8"/>
+    <text x="26" y="12" class="item-text">Firebase Realtime</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#818cf8"/>
+    <text x="26" y="12" class="item-text">Hibernate ORM / SQL</text>
+  </g>
+</g>
+
+<!-- Card 5: CLOUD & DEVOPS -->
+<g transform="translate(1048, 145)">
+  <rect width="230" height="250" class="glass-card" stroke="#fb923c" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#fb923c" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#fb923c" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#fb923c">CLOUD &amp; DEVOPS</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#fb923c"/>
+    <text x="26" y="12" class="item-text">AWS Cloud (Intermediate)</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#fb923c"/>
+    <text x="26" y="12" class="item-text">Docker Containers</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#fb923c"/>
+    <text x="26" y="12" class="item-text">GitHub Actions CI/CD</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#fb923c"/>
+    <text x="26" y="12" class="item-text">Git / GitHub / Maven</text>
+  </g>
+</g>
+
+<!-- ════════════════════════ ROW 2 (y = 440) ════════════════════════ -->
+
+<!-- Card 6: TESTING & QA -->
+<g transform="translate(40, 440)">
+  <rect width="230" height="250" class="glass-card" stroke="#f87171" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#f87171" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#f87171" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#f87171">TESTING &amp; QA</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#f87171"/>
+    <text x="26" y="12" class="item-text">JUnit Unit Testing</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#f87171"/>
+    <text x="26" y="12" class="item-text">Postman API Testing</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#f87171"/>
+    <text x="26" y="12" class="item-text">Chrome DevTools</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#f87171"/>
+    <text x="26" y="12" class="item-text">Lighthouse Audit</text>
+  </g>
+</g>
+
+<!-- Card 7: OPTIMIZATION -->
+<g transform="translate(292, 440)">
+  <rect width="230" height="250" class="glass-card" stroke="#22d3ee" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#22d3ee" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#22d3ee" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#22d3ee">REACT OPTIMIZATION</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#22d3ee"/>
+    <text x="26" y="12" class="item-text">Custom React Hooks</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#22d3ee"/>
+    <text x="26" y="12" class="item-text">Lazy Loading Modules</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#22d3ee"/>
+    <text x="26" y="12" class="item-text">React Memoization</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#22d3ee"/>
+    <text x="26" y="12" class="item-text">Code Splitting &amp; Perf</text>
+  </g>
+</g>
+
+<!-- Card 8: PROTOCOLS & DATA -->
+<g transform="translate(544, 440)">
+  <rect width="230" height="250" class="glass-card" stroke="#facc15" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#facc15" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#facc15" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#facc15">SYSTEM PROTOCOLS</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#facc15"/>
+    <text x="26" y="12" class="item-text">HTTP / HTTPS Protocols</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#facc15"/>
+    <text x="26" y="12" class="item-text">JSON Data Serialization</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#facc15"/>
+    <text x="26" y="12" class="item-text">API Call Optimization</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#facc15"/>
+    <text x="26" y="12" class="item-text">Error Handling Pipelines</text>
+  </g>
+</g>
+
+<!-- Card 9: ENGINEERING PRACTICES -->
+<g transform="translate(796, 440)">
+  <rect width="230" height="250" class="glass-card" stroke="#a78bfa" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#a78bfa" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#a78bfa" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#a78bfa">METHODOLOGY</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#a78bfa"/>
+    <text x="26" y="12" class="item-text">Agile &amp; Scrum Sprints</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#a78bfa"/>
+    <text x="26" y="12" class="item-text">Software SDLC Lifecycle</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#a78bfa"/>
+    <text x="26" y="12" class="item-text">System Troubleshooting</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#a78bfa"/>
+    <text x="26" y="12" class="item-text">Application Docs &amp; Flow</text>
+  </g>
+</g>
+
+<!-- Card 10: COLLABORATION -->
+<g transform="translate(1048, 440)">
+  <rect width="230" height="250" class="glass-card" stroke="#5eead4" stroke-opacity="0.35"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="#5eead4" opacity="0.3"/>
+  <rect x="20" y="24" width="12" height="12" rx="3" fill="none" stroke="#5eead4" stroke-width="2"/>
+  <text x="42" y="35" class="subtitle" fill="#5eead4">COLLABORATION</text>
+  <line x1="20" y1="52" x2="210" y2="52" stroke="#ffffff" stroke-opacity="0.1"/>
+
+  <g transform="translate(20, 72)">
+    <circle cx="8" cy="8" r="4.5" fill="#5eead4"/>
+    <text x="26" y="12" class="item-text">Git Feature Branching</text>
+  </g>
+  <g transform="translate(20, 110)">
+    <circle cx="8" cy="8" r="4.5" fill="#5eead4"/>
+    <text x="26" y="12" class="item-text">Pull Request Reviews</text>
+  </g>
+  <g transform="translate(20, 148)">
+    <circle cx="8" cy="8" r="4.5" fill="#5eead4"/>
+    <text x="26" y="12" class="item-text">Cross-Functional Sync</text>
+  </g>
+  <g transform="translate(20, 186)">
+    <circle cx="8" cy="8" r="4.5" fill="#5eead4"/>
+    <text x="26" y="12" class="item-text">Production Deployment</text>
+  </g>
+</g>
+
+</g>
+</svg>

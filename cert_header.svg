@@ -1,0 +1,33 @@
+<svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="cyanGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <style>
+    .header-text {
+      font-family: 'JetBrains Mono', Consolas, 'Fira Code', monospace;
+      font-weight: 800;
+      font-size: 30px;
+      fill: #22d3ee;
+      letter-spacing: 2px;
+      filter: url(#cyanGlow);
+    }
+    
+    .animated-text {
+      animation: pulseGlow 2.5s infinite alternate;
+    }
+    
+    @keyframes pulseGlow {
+      0% { opacity: 0.75; filter: drop-shadow(0 0 2px #22d3ee); }
+      100% { opacity: 1; filter: drop-shadow(0 0 12px #22d3ee); }
+    }
+  </style>
+
+  <text x="400" y="60" class="header-text animated-text" text-anchor="middle">&gt; Certifications &amp; Verified Clearances_</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 340 130" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="logoGlow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="orbBlur"><feGaussianBlur stdDeviation="25" /></filter>
+    
+    <pattern id="hexGrid" width="40" height="69.282" patternUnits="userSpaceOnUse" patternTransform="scale(0.8)">
+      <path d="M 40 17.321 L 20 5.774 L 0 17.321 L 0 40.415 L 20 51.962 L 40 40.415 Z M 40 51.962 L 20 63.509 L 0 51.962 M 20 5.774 L 20 -5.774 M 20 75.056 L 20 63.509 M 40 17.321 L 60 5.774 M 0 17.321 L -20 5.774 M 40 40.415 L 60 51.962 M 0 40.415 L -20 51.962" stroke="#5EEAD4" stroke-opacity="0.1" stroke-width="1.5" fill="none"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect width="340" height="130" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+    .card-bg { fill: #040910; stroke: #5EEAD4; stroke-width: 1.5; rx: 12; }
+    .card-title { font-family: 'Segoe UI', sans-serif; font-weight: 700; font-size: 16px; fill: #ffffff; letter-spacing: 0.5px; }
+    .card-sub { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #94A3B8; }
+    .logo-path { fill: #5EEAD4; filter: url(#logoGlow); }
+    .btn-text { font-family: 'JetBrains Mono', Consolas, monospace; }
+  </style>
+  
+  <rect width="340" height="130" rx="12" fill="#040910"/>
+  
+  <g clip-path="url(#cardClip)">
+    <g filter="url(#orbBlur)">
+      <circle r="60" fill="#5EEAD4" opacity="0.25">
+        <animate attributeName="cx" values="50; 290; 50" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="30; 100; 30" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <circle r="50" fill="#22D3EE" opacity="0.2">
+        <animate attributeName="cx" values="290; 50; 290" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="100; 30; 100" dur="9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    
+    <rect width="340" height="130" fill="url(#hexGrid)"/>
+    <rect width="340" height="130" fill="#040910" fill-opacity="0.65"/>
+    <rect width="340" height="130" class="card-bg" fill="none"/>
+    
+    <!-- GitHub Logo Visual -->
+    <g transform="translate(25, 20) scale(1.3)">
+      <path class="logo-path" d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+    </g>
+    
+    <text x="25" y="80" class="card-title">GitHub</text>
+    <text x="25" y="98" class="card-sub">@Gaurav-Khaladkar</text>
+    
+    <rect width="340" height="130" rx="12" fill="none" stroke="#5EEAD4" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(225, 88)">
+      <rect width="95" height="26" rx="13" fill="#5EEAD4" fill-opacity="0.15" stroke="#5EEAD4" stroke-opacity="0.6"/>
+      <text x="47.5" y="17" class="btn-text" fill="#5EEAD4" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="0.5">FOLLOW ↗</text>
+    </g>
+  </g>
+</svg>

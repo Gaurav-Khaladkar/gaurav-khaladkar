@@ -1,0 +1,64 @@
+<svg viewBox="0 0 340 130" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="logoGlow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="orbBlur"><feGaussianBlur stdDeviation="25" /></filter>
+    
+    <pattern id="hexGrid" width="40" height="69.282" patternUnits="userSpaceOnUse" patternTransform="scale(0.8)">
+      <path d="M 40 17.321 L 20 5.774 L 0 17.321 L 0 40.415 L 20 51.962 L 40 40.415 Z M 40 51.962 L 20 63.509 L 0 51.962 M 20 5.774 L 20 -5.774 M 20 75.056 L 20 63.509 M 40 17.321 L 60 5.774 M 0 17.321 L -20 5.774 M 40 40.415 L 60 51.962 M 0 40.415 L -20 51.962" stroke="#0A66C2" stroke-opacity="0.1" stroke-width="1.5" fill="none"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect width="340" height="130" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+    .card-bg { fill: #040910; stroke: #0A66C2; stroke-width: 1.5; rx: 12; }
+    .card-title { font-family: 'Segoe UI', sans-serif; font-weight: 700; font-size: 16px; fill: #ffffff; letter-spacing: 0.5px; }
+    .card-sub { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #94A3B8; }
+    .logo-path { fill: #0A66C2; filter: url(#logoGlow); }
+    .btn-text { font-family: 'JetBrains Mono', Consolas, monospace; }
+  </style>
+  
+  <rect width="340" height="130" rx="12" fill="#040910"/>
+  
+  <g clip-path="url(#cardClip)">
+    <!-- Ambient floating orbs -->
+    <g filter="url(#orbBlur)">
+      <circle r="60" fill="#0A66C2" opacity="0.3">
+        <animate attributeName="cx" values="50; 290; 50" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="30; 100; 30" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <circle r="50" fill="#38BDF8" opacity="0.2">
+        <animate attributeName="cx" values="290; 50; 290" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="100; 30; 100" dur="9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    
+    <!-- Grid Overlay -->
+    <rect width="340" height="130" fill="url(#hexGrid)"/>
+    <rect width="340" height="130" fill="#040910" fill-opacity="0.65"/>
+    <rect width="340" height="130" class="card-bg" fill="none"/>
+    
+    <!-- LinkedIn Logo Visual -->
+    <g transform="translate(25, 20) scale(1.3)">
+      <path class="logo-path" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+    </g>
+    
+    <!-- Title -->
+    <text x="25" y="80" class="card-title">LinkedIn</text>
+    <text x="25" y="98" class="card-sub">Gaurav Khaladkar</text>
+    
+    <!-- Glowing Border Animation -->
+    <rect width="340" height="130" rx="12" fill="none" stroke="#0A66C2" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Connect Button -->
+    <g transform="translate(225, 88)">
+      <rect width="95" height="26" rx="13" fill="#0A66C2" fill-opacity="0.15" stroke="#0A66C2" stroke-opacity="0.6"/>
+      <text x="47.5" y="17" class="btn-text" fill="#38BDF8" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="0.5">CONNECT ↗</text>
+    </g>
+  </g>
+</svg>

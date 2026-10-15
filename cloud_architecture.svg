@@ -1,0 +1,273 @@
+<svg viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gaurav Khaladkar Full-Stack &amp; Agentic AI Architecture Map">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="ca-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020611"/>
+      <stop offset="50%" stop-color="#06162a"/>
+      <stop offset="100%" stop-color="#02050d"/>
+    </linearGradient>
+
+    <!-- Aurora and Glows -->
+    <radialGradient id="ca-auroraCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ca-auroraPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C084FC" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text Gradients -->
+    <linearGradient id="ca-textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#BAE6FD"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#5EEAD4"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="ca-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="ca-blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+
+    <pattern id="ca-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#22D3EE" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+    .sans { font-family: 'Segoe UI', Roboto, sans-serif; }
+    .arch-card { fill: #040c1a; fill-opacity: 0.85; stroke: #38BDF8; stroke-opacity: 0.3; stroke-width: 1.5; rx: 14; }
+    .arch-title { font-size: 16.5px; font-weight: 800; fill: #38BDF8; letter-spacing: 1px; }
+    .arch-sub { font-size: 12.5px; font-weight: 600; fill: #7C93A8; }
+    .arch-pill { fill: #061930; stroke: #22D3EE; stroke-opacity: 0.5; stroke-width: 1.2; rx: 8; }
+    .pill-text { font-size: 13px; font-weight: 700; fill: #E0F2FE; }
+    .pill-detail { font-size: 11px; fill: #94A3B8; }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="url(#ca-bg)"/>
+  <rect width="1200" height="700" fill="url(#ca-grid)"/>
+
+  <!-- Glowing background orbs -->
+  <circle cx="250" cy="150" r="240" fill="url(#ca-auroraCyan)" filter="url(#ca-blur)"/>
+  <circle cx="950" cy="550" r="260" fill="url(#ca-auroraPurple)" filter="url(#ca-blur)"/>
+
+  <!-- Header -->
+  <text x="50" y="55" class="mono" font-size="24" font-weight="800" fill="url(#ca-textGrad)" filter="url(#ca-glow)">
+    SYSTEM_ARCHITECTURE // FULL-STACK &amp; AGENTIC AI BLUEPRINT
+  </text>
+  <text x="50" y="80" class="mono" font-size="13" fill="#94A3B8">
+    // End-to-end resilient topology connecting React SPA, Spring Boot Gateway, Agentic LLM Orchestrator &amp; AWS Infrastructure
+  </text>
+  <line x1="50" y1="95" x2="1150" y2="95" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- Flow Data Packets Animation (Left to Right / Top to Bottom) -->
+  <g fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="6 8" opacity="0.35">
+    <path d="M 300, 240 L 370, 240"/>
+    <path d="M 590, 240 L 660, 240"/>
+    <path d="M 880, 240 L 950, 240"/>
+    <path d="M 185, 400 L 185, 450"/>
+    <path d="M 475, 400 L 475, 450"/>
+    <path d="M 765, 400 L 765, 450"/>
+    <path d="M 1055, 400 L 1055, 450"/>
+  </g>
+
+  <!-- Moving Data Light Pulse -->
+  <circle r="4" fill="#5EEAD4" filter="url(#ca-glow)">
+    <animateMotion path="M 300,240 L 370,240 M 590,240 L 660,240 M 880,240 L 950,240" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ═════════════════ TIER 1: FRONTEND LAYER (X: 50, Y: 120) ═════════════════ -->
+  <g transform="translate(50, 120)">
+    <rect width="250" height="260" class="arch-card" stroke="#38BDF8"/>
+    <circle cx="25" cy="30" r="5" fill="#38BDF8"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="40" y="35" class="sans arch-title">01 // CLIENT SPA</text>
+    <text x="40" y="52" class="mono arch-sub">React.js &amp; Modern Web</text>
+    <line x1="20" y1="64" x2="230" y2="64" stroke="#38BDF8" stroke-opacity="0.2"/>
+
+    <!-- Component 1 -->
+    <g transform="translate(18, 76)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">React.js Components</text>
+      <text x="14" y="34" class="sans pill-detail">Custom Hooks &amp; State Management</text>
+    </g>
+
+    <!-- Component 2 -->
+    <g transform="translate(18, 126)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">Performance Engine</text>
+      <text x="14" y="34" class="sans pill-detail">Lazy Loading &amp; Memoisation</text>
+    </g>
+
+    <!-- Component 3 -->
+    <g transform="translate(18, 176)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">Dynamic UI Render</text>
+      <text x="14" y="34" class="sans pill-detail">Bootstrap &amp; Responsive Layouts</text>
+    </g>
+    
+    <text x="18" y="242" class="mono" font-size="11" fill="#38BDF8">STATUS: HIGH RENDERING PERF</text>
+  </g>
+
+  <!-- ═════════════════ TIER 2: GATEWAY & SECURITY (X: 340, Y: 120) ═════════════════ -->
+  <g transform="translate(340, 120)">
+    <rect width="250" height="260" class="arch-card" stroke="#22D3EE"/>
+    <circle cx="25" cy="30" r="5" fill="#22D3EE"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.3s" repeatCount="indefinite"/></circle>
+    <text x="40" y="35" class="sans arch-title">02 // API GATEWAY</text>
+    <text x="40" y="52" class="mono arch-sub">Security &amp; Routing</text>
+    <line x1="20" y1="64" x2="230" y2="64" stroke="#22D3EE" stroke-opacity="0.2"/>
+
+    <g transform="translate(18, 76)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">JWT Authentication</text>
+      <text x="14" y="34" class="sans pill-detail">Stateless Token Validation &amp; Auth</text>
+    </g>
+
+    <g transform="translate(18, 126)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">REST Protocol Layer</text>
+      <text x="14" y="34" class="sans pill-detail">HTTP / HTTPS &amp; JSON Contracts</text>
+    </g>
+
+    <g transform="translate(18, 176)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">Error Interceptors</text>
+      <text x="14" y="34" class="sans pill-detail">Graceful Fallbacks &amp; Validation</text>
+    </g>
+
+    <text x="18" y="242" class="mono" font-size="11" fill="#22D3EE">STATUS: ZERO TRUST PROTOCOL</text>
+  </g>
+
+  <!-- ═════════════════ TIER 3: SPRING BOOT SERVICES (X: 630, Y: 120) ═════════════════ -->
+  <g transform="translate(630, 120)">
+    <rect width="250" height="260" class="arch-card" stroke="#34D399"/>
+    <circle cx="25" cy="30" r="5" fill="#34D399"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <text x="40" y="35" class="sans arch-title">03 // CORE SERVICES</text>
+    <text x="40" y="52" class="mono arch-sub">Java &amp; Spring Boot</text>
+    <line x1="20" y1="64" x2="230" y2="64" stroke="#34D399" stroke-opacity="0.2"/>
+
+    <g transform="translate(18, 76)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">Spring Boot Controller</text>
+      <text x="14" y="34" class="sans pill-detail">REST Endpoints &amp; Business Rules</text>
+    </g>
+
+    <g transform="translate(18, 126)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">Hibernate / JPA ORM</text>
+      <text x="14" y="34" class="sans pill-detail">Entity Lifecycle &amp; Transactions</text>
+    </g>
+
+    <g transform="translate(18, 176)">
+      <rect width="214" height="40" class="arch-pill"/>
+      <text x="14" y="22" class="mono pill-text">Real Estate Logic</text>
+      <text x="14" y="34" class="sans pill-detail">Property Bookings &amp; Document Mgmt</text>
+    </g>
+
+    <text x="18" y="242" class="mono" font-size="11" fill="#34D399">STATUS: 99.9% RESILIENCE</text>
+  </g>
+
+  <!-- ═════════════════ TIER 4: AGENTIC AI LAYER (X: 920, Y: 120) ═════════════════ -->
+  <g transform="translate(920, 120)">
+    <rect width="230" height="260" class="arch-card" stroke="#C084FC"/>
+    <circle cx="25" cy="30" r="5" fill="#C084FC"><animate attributeName="opacity" values="0.4;1;0.4" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="40" y="35" class="sans arch-title">04 // AGENTIC AI</text>
+    <text x="40" y="52" class="mono arch-sub">Autonomous Orchestration</text>
+    <line x1="20" y1="64" x2="210" y2="64" stroke="#C084FC" stroke-opacity="0.2"/>
+
+    <g transform="translate(16, 76)">
+      <rect width="198" height="40" class="arch-pill"/>
+      <text x="12" y="22" class="mono pill-text">Oracle AI Concepts</text>
+      <text x="12" y="34" class="sans pill-detail">Certified Foundations Associate</text>
+    </g>
+
+    <g transform="translate(16, 126)">
+      <rect width="198" height="40" class="arch-pill"/>
+      <text x="12" y="22" class="mono pill-text">LLM Tool Calling</text>
+      <text x="12" y="34" class="sans pill-detail">Autonomous Agent Actions</text>
+    </g>
+
+    <g transform="translate(16, 176)">
+      <rect width="198" height="40" class="arch-pill"/>
+      <text x="12" y="22" class="mono pill-text">Prompt Engineering</text>
+      <text x="12" y="34" class="sans pill-detail">Context Pipelines &amp; Reasoning</text>
+    </g>
+
+    <text x="16" y="242" class="mono" font-size="11" fill="#C084FC">STATUS: AUTONOMOUS AGENTS ACTIVE</text>
+  </g>
+
+  <!-- ═════════════════ LOWER INFRASTRUCTURE & PERSISTENCE TIER ═════════════════ -->
+
+  <!-- Card: PERSISTENCE (X: 50, Y: 430) -->
+  <g transform="translate(50, 430)">
+    <rect width="520" height="210" class="arch-card" stroke="#818CF8"/>
+    <circle cx="25" cy="28" r="5" fill="#818CF8"/>
+    <text x="40" y="33" class="sans arch-title">05 // PERSISTENCE &amp; STORAGE LAYER</text>
+    <text x="40" y="50" class="mono arch-sub">Relational &amp; Real-time Databases</text>
+    <line x1="20" y1="62" x2="500" y2="62" stroke="#818CF8" stroke-opacity="0.2"/>
+
+    <g transform="translate(20, 80)">
+      <rect width="150" height="95" class="arch-pill"/>
+      <text x="16" y="30" class="mono pill-text" fill="#818CF8">MySQL 8.0</text>
+      <text x="16" y="52" class="sans pill-detail">Optimized Queries</text>
+      <text x="16" y="72" class="sans pill-detail">Indexes &amp; Foreign Keys</text>
+    </g>
+
+    <g transform="translate(185, 80)">
+      <rect width="150" height="95" class="arch-pill"/>
+      <text x="16" y="30" class="mono pill-text" fill="#818CF8">PostgreSQL</text>
+      <text x="16" y="52" class="sans pill-detail">ACID Transactions</text>
+      <text x="16" y="72" class="sans pill-detail">Enterprise Schemas</text>
+    </g>
+
+    <g transform="translate(350, 80)">
+      <rect width="150" height="95" class="arch-pill"/>
+      <text x="16" y="30" class="mono pill-text" fill="#818CF8">Firebase Realtime</text>
+      <text x="16" y="52" class="sans pill-detail">Live Data Streams</text>
+      <text x="16" y="72" class="sans pill-detail">Cloud Synchronization</text>
+    </g>
+  </g>
+
+  <!-- Card: CLOUD & DEVOPS INFRASTRUCTURE (X: 610, Y: 430) -->
+  <g transform="translate(610, 430)">
+    <rect width="540" height="210" class="arch-card" stroke="#FB923C"/>
+    <circle cx="25" cy="28" r="5" fill="#FB923C"/>
+    <text x="40" y="33" class="sans arch-title">06 // CLOUD &amp; DEVOPS INFRASTRUCTURE</text>
+    <text x="40" y="50" class="mono arch-sub">Containerization, CI/CD &amp; AWS</text>
+    <line x1="20" y1="62" x2="520" y2="62" stroke="#FB923C" stroke-opacity="0.2"/>
+
+    <g transform="translate(20, 80)">
+      <rect width="155" height="95" class="arch-pill"/>
+      <text x="16" y="30" class="mono pill-text" fill="#FB923C">Docker Engine</text>
+      <text x="16" y="52" class="sans pill-detail">Multi-stage Container</text>
+      <text x="16" y="72" class="sans pill-detail">Microservice Isolation</text>
+    </g>
+
+    <g transform="translate(190, 80)">
+      <rect width="155" height="95" class="arch-pill"/>
+      <text x="16" y="30" class="mono pill-text" fill="#FB923C">GitHub Actions</text>
+      <text x="16" y="52" class="sans pill-detail">Automated CI/CD</text>
+      <text x="16" y="72" class="sans pill-detail">Build, Test &amp; Deploy</text>
+    </g>
+
+    <g transform="translate(360, 80)">
+      <rect width="155" height="95" class="arch-pill"/>
+      <text x="16" y="30" class="mono pill-text" fill="#FB923C">AWS Cloud</text>
+      <text x="16" y="52" class="sans pill-detail">EC2, S3 Storage</text>
+      <text x="16" y="72" class="sans pill-detail">Intermediate Arch</text>
+    </g>
+  </g>
+
+  <!-- Telemetry Baseline Footer -->
+  <line x1="50" y1="670" x2="1150" y2="670" stroke="#38BDF8" stroke-opacity="0.15" stroke-width="1"/>
+  <text x="50" y="688" class="mono" font-size="11" fill="#7C93A8">TELEMETRY: DATA INGESTION HEALTHY</text>
+  <text x="1150" y="688" text-anchor="end" class="mono" font-size="11" fill="#38BDF8">GAURAV KHALADKAR // FULL-STACK SYSTEM DEPLOYED</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg viewBox="0 0 340 130" xmlns="http://www.w3.org/2000/svg" role="img">
+  <defs>
+    <filter id="softGlow"><feGaussianBlur stdDeviation="6" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="logoGlow"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="orbBlur"><feGaussianBlur stdDeviation="25" /></filter>
+    
+    <pattern id="hexGrid" width="40" height="69.282" patternUnits="userSpaceOnUse" patternTransform="scale(0.8)">
+      <path d="M 40 17.321 L 20 5.774 L 0 17.321 L 0 40.415 L 20 51.962 L 40 40.415 Z M 40 51.962 L 20 63.509 L 0 51.962 M 20 5.774 L 20 -5.774 M 20 75.056 L 20 63.509 M 40 17.321 L 60 5.774 M 0 17.321 L -20 5.774 M 40 40.415 L 60 51.962 M 0 40.415 L -20 51.962" stroke="#38BDF8" stroke-opacity="0.1" stroke-width="1.5" fill="none"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect width="340" height="130" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', Consolas, monospace; }
+    .card-bg { fill: #040910; stroke: #38BDF8; stroke-width: 1.5; rx: 12; }
+    .card-title { font-family: 'Segoe UI', sans-serif; font-weight: 700; font-size: 16px; fill: #ffffff; letter-spacing: 0.5px; }
+    .card-sub { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #7DD3FC; }
+    .logo-path { fill: #38BDF8; filter: url(#logoGlow); }
+    .btn-text { font-family: 'JetBrains Mono', Consolas, monospace; }
+  </style>
+  
+  <rect width="340" height="130" rx="12" fill="#040910"/>
+  
+  <g clip-path="url(#cardClip)">
+    <g filter="url(#orbBlur)">
+      <circle r="60" fill="#38BDF8" opacity="0.25">
+        <animate attributeName="cx" values="50; 290; 50" dur="12s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="30; 100; 30" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <circle r="50" fill="#22D3EE" opacity="0.2">
+        <animate attributeName="cx" values="290; 50; 290" dur="10s" repeatCount="indefinite" />
+        <animate attributeName="cy" values="100; 30; 100" dur="9s" repeatCount="indefinite" />
+      </circle>
+    </g>
+    
+    <rect width="340" height="130" fill="url(#hexGrid)"/>
+    <rect width="340" height="130" fill="#040910" fill-opacity="0.65"/>
+    <rect width="340" height="130" class="card-bg" fill="none"/>
+    
+    <!-- Trophy / Forage Simulation Icon -->
+    <g transform="translate(25, 20) scale(1.1)">
+      <path class="logo-path" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+    </g>
+    
+    <text x="25" y="80" class="card-title">Forage / Accenture</text>
+    <text x="25" y="98" class="card-sub">Developer Job Simulation</text>
+    
+    <rect width="340" height="130" rx="12" fill="none" stroke="#38BDF8" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.1;0.6;0.1" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <g transform="translate(225, 88)">
+      <rect width="95" height="26" rx="13" fill="#38BDF8" fill-opacity="0.15" stroke="#38BDF8" stroke-opacity="0.6"/>
+      <text x="47.5" y="17" class="btn-text" fill="#38BDF8" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="0.5">VIEW ↗</text>
+    </g>
+  </g>
+</svg>

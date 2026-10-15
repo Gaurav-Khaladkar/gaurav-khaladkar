@@ -1,0 +1,251 @@
+<svg viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<defs>
+  <radialGradient id="mc-bgGrad" cx="50%" cy="50%" r="70%">
+    <stop offset="0%" stop-color="#050e1c"/>
+    <stop offset="100%" stop-color="#020409"/>
+  </radialGradient>
+  <linearGradient id="mc-cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.01"/>
+  </linearGradient>
+  <linearGradient id="mc-btnGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.1"/>
+  </linearGradient>
+  <linearGradient id="mc-btnAlt" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#c084fc" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#a855f7" stop-opacity="0.1"/>
+  </linearGradient>
+  <filter id="mc-softGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="8" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <filter id="mc-textGlow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  
+  <pattern id="mc-grid" width="60" height="60" patternUnits="userSpaceOnUse">
+    <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#22d3ee" stroke-opacity="0.03" stroke-width="1"/>
+  </pattern>
+</defs>
+
+<style>
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+  .title { font-weight: 800; font-size: 20px; fill: #22d3ee; letter-spacing: 0.8px; }
+  .desc { font-weight: 400; font-size: 14.5px; fill: #94a3b8; line-height: 1.5; }
+  .tag { font-weight: 600; font-size: 12px; fill: #5eead4; }
+  .btn-text { font-weight: 700; font-size: 12.5px; letter-spacing: 1px; fill: #ffffff; }
+  .card-bg { fill: url(#mc-cardGrad); stroke: rgba(34, 211, 238, 0.18); stroke-width: 1.5; rx: 14; }
+  .btn-bg { fill: url(#mc-btnGlow); stroke: #38bdf8; stroke-width: 1.2; rx: 6; }
+  .btn-bg-alt { fill: url(#mc-btnAlt); stroke: #c084fc; stroke-width: 1.2; rx: 6; }
+  
+  a { cursor: pointer; outline: none; }
+  a:hover .btn-bg { fill: rgba(56, 189, 248, 0.5); }
+  a:hover .btn-bg-alt { fill: rgba(192, 132, 252, 0.5); }
+  
+  .hud { opacity: 0; animation: fadeIn 1.2s ease forwards; animation-delay: 0.3s; }
+  @keyframes fadeIn { to { opacity: 1; } }
+</style>
+
+<!-- Background -->
+<rect width="1200" height="780" fill="url(#mc-bgGrad)"/>
+<rect x="-60" y="-60" width="1320" height="900" fill="url(#mc-grid)">
+  <animateTransform attributeName="transform" type="translate" values="0,0; -60,60" dur="15s" repeatCount="indefinite" />
+</rect>
+
+<!-- Ambient Glowing Orbs -->
+<circle cx="160" cy="150" r="300" fill="#38bdf8" opacity="0.1" filter="url(#mc-softGlow)">
+  <animate attributeName="opacity" values="0.05;0.14;0.05" dur="4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1040" cy="640" r="340" fill="#c084fc" opacity="0.09" filter="url(#mc-softGlow)">
+  <animate attributeName="opacity" values="0.05;0.14;0.05" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<g class="hud">
+
+<!-- Main Outer HUD Frame -->
+<rect x="30" y="30" width="1140" height="720" rx="20" fill="none" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="2"/>
+<path d="M 30 100 L 1170 100" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="2"/>
+<rect x="50" y="30" width="260" height="4" fill="#38bdf8" filter="url(#mc-softGlow)"/>
+
+<text x="60" y="70" class="mono" font-size="20" font-weight="bold" fill="#38bdf8" filter="url(#mc-textGlow)">
+  &gt; MISSION_CONTROL // FEATURED_PROJECTS
+</text>
+<text x="1140" y="70" class="mono" font-size="12" fill="#7C93A8" text-anchor="end">STATUS: ACTIVE TELEMETRY</text>
+
+<!-- ════════════════════════ PROJECT 1: REAL ESTATE MANAGEMENT SYSTEM ════════════════════════ -->
+<g transform="translate(60, 135)">
+  <rect width="1080" height="175" class="card-bg"/>
+  
+  <!-- Icon & Header -->
+  <text x="32" y="44" font-size="24">🏢</text>
+  <text x="75" y="42" class="title">Real Estate Management System &amp; Enterprise Property Engine</text>
+  
+  <text x="75" y="74" class="desc">
+    <tspan x="75" dy="0">Engineered a comprehensive real estate platform for property listings, dynamic bookings, and document management.</tspan>
+    <tspan x="75" dy="24">Built modular React components using custom Hooks, lazy loading, memoisation, code splitting, and MySQL optimization.</tspan>
+  </text>
+  
+  <!-- Tags -->
+  <g transform="translate(75, 136)">
+    <rect x="0" y="-15" width="82" height="22" rx="4" fill="#5eead4" fill-opacity="0.1"/>
+    <text x="8" y="0" class="mono tag">[React.js]</text>
+
+    <rect x="92" y="-15" width="98" height="22" rx="4" fill="#5eead4" fill-opacity="0.1"/>
+    <text x="100" y="0" class="mono tag">[Spring Boot]</text>
+
+    <rect x="200" y="-15" width="88" height="22" rx="4" fill="#5eead4" fill-opacity="0.1"/>
+    <text x="208" y="0" class="mono tag">[REST APIs]</text>
+
+    <rect x="298" y="-15" width="82" height="22" rx="4" fill="#5eead4" fill-opacity="0.1"/>
+    <text x="306" y="0" class="mono tag">[JWT Auth]</text>
+
+    <rect x="390" y="-15" width="68" height="22" rx="4" fill="#5eead4" fill-opacity="0.1"/>
+    <text x="398" y="0" class="mono tag">[MySQL]</text>
+
+    <rect x="468" y="-15" width="98" height="22" rx="4" fill="#5eead4" fill-opacity="0.1"/>
+    <text x="476" y="0" class="mono tag">[Optimization]</text>
+  </g>
+  
+  <!-- Action Buttons -->
+  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+    <g transform="translate(840, 32)">
+      <rect width="210" height="42" class="btn-bg"/>
+      <text x="105" y="26" class="mono btn-text" text-anchor="middle">View Repository ↗</text>
+      <rect width="210" height="42" rx="6" fill="none" stroke="#38bdf8" filter="url(#mc-softGlow)">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </a>
+  
+  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+    <g transform="translate(840, 92)">
+      <rect width="210" height="42" class="btn-bg-alt"/>
+      <text x="105" y="26" class="mono btn-text" text-anchor="middle">System Architecture ↗</text>
+      <rect width="210" height="42" rx="6" fill="none" stroke="#c084fc" filter="url(#mc-softGlow)">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </a>
+</g>
+
+<!-- ════════════════════════ PROJECT 2: AGENTIC AI ORCHESTRATOR ════════════════════════ -->
+<g transform="translate(60, 335)">
+  <rect width="1080" height="175" class="card-bg"/>
+  
+  <text x="32" y="44" font-size="24">🤖</text>
+  <text x="75" y="42" class="title">Autonomous Agentic AI Workflow &amp; Task Orchestrator</text>
+  
+  <text x="75" y="74" class="desc">
+    <tspan x="75" dy="0">Architected an intelligent multi-agent framework grounded in Oracle Certified Agentic AI Foundations principles.</tspan>
+    <tspan x="75" dy="24">Integrates LLM prompt engineering, dynamic context injection, autonomous tool execution, and self-directed task resolution.</tspan>
+  </text>
+  
+  <g transform="translate(75, 136)">
+    <rect x="0" y="-15" width="94" height="22" rx="4" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="8" y="0" class="mono tag" fill="#c084fc">[Agentic AI]</text>
+
+    <rect x="104" y="-15" width="108" height="22" rx="4" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="112" y="0" class="mono tag" fill="#c084fc">[Generative AI]</text>
+
+    <rect x="222" y="-15" width="88" height="22" rx="4" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="230" y="0" class="mono tag" fill="#c084fc">[AI Agents]</text>
+
+    <rect x="320" y="-15" width="106" height="22" rx="4" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="328" y="0" class="mono tag" fill="#c084fc">[Prompt Eng.]</text>
+
+    <rect x="436" y="-15" width="98" height="22" rx="4" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="444" y="0" class="mono tag" fill="#c084fc">[Spring Boot]</text>
+
+    <rect x="544" y="-15" width="70" height="22" rx="4" fill="#c084fc" fill-opacity="0.15"/>
+    <text x="552" y="0" class="mono tag" fill="#c084fc">[Docker]</text>
+  </g>
+  
+  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+    <g transform="translate(840, 32)">
+      <rect width="210" height="42" class="btn-bg"/>
+      <text x="105" y="26" class="mono btn-text" text-anchor="middle">View AI Engine ↗</text>
+      <rect width="210" height="42" rx="6" fill="none" stroke="#38bdf8" filter="url(#mc-softGlow)">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </a>
+  
+  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+    <g transform="translate(840, 92)">
+      <rect width="210" height="42" class="btn-bg-alt"/>
+      <text x="105" y="26" class="mono btn-text" text-anchor="middle">Agent Architecture ↗</text>
+      <rect width="210" height="42" rx="6" fill="none" stroke="#c084fc" filter="url(#mc-softGlow)">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </a>
+</g>
+
+<!-- ════════════════════════ PROJECT 3: CLOUD MICROSERVICES & CI/CD ════════════════════════ -->
+<g transform="translate(60, 535)">
+  <rect width="1080" height="175" class="card-bg"/>
+  
+  <text x="32" y="44" font-size="24">⚡</text>
+  <text x="75" y="42" class="title">Distributed Cloud Microservices &amp; CI/CD Deployment Engine</text>
+  
+  <text x="75" y="74" class="desc">
+    <tspan x="75" dy="0">Engineered a scalable microservices architecture with Spring Boot, PostgreSQL, Docker containers, and Maven.</tspan>
+    <tspan x="75" dy="24">Implemented end-to-end automated GitHub Actions CI/CD pipelines deploying containerized services to AWS with testing suites.</tspan>
+  </text>
+  
+  <g transform="translate(75, 136)">
+    <rect x="0" y="-15" width="58" height="22" rx="4" fill="#fb923c" fill-opacity="0.15"/>
+    <text x="8" y="0" class="mono tag" fill="#fb923c">[Java]</text>
+
+    <rect x="68" y="-15" width="98" height="22" rx="4" fill="#fb923c" fill-opacity="0.15"/>
+    <text x="76" y="0" class="mono tag" fill="#fb923c">[Spring Boot]</text>
+
+    <rect x="176" y="-15" width="70" height="22" rx="4" fill="#fb923c" fill-opacity="0.15"/>
+    <text x="184" y="0" class="mono tag" fill="#fb923c">[Docker]</text>
+
+    <rect x="256" y="-15" width="95" height="22" rx="4" fill="#fb923c" fill-opacity="0.15"/>
+    <text x="264" y="0" class="mono tag" fill="#fb923c">[PostgreSQL]</text>
+
+    <rect x="361" y="-15" width="124" height="22" rx="4" fill="#fb923c" fill-opacity="0.15"/>
+    <text x="369" y="0" class="mono tag" fill="#fb923c">[GitHub Actions]</text>
+
+    <rect x="495" y="-15" width="94" height="22" rx="4" fill="#fb923c" fill-opacity="0.15"/>
+    <text x="503" y="0" class="mono tag" fill="#fb923c">[AWS Cloud]</text>
+  </g>
+  
+  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+    <g transform="translate(840, 32)">
+      <rect width="210" height="42" class="btn-bg"/>
+      <text x="105" y="26" class="mono btn-text" text-anchor="middle">View DevOps Spec ↗</text>
+      <rect width="210" height="42" rx="6" fill="none" stroke="#38bdf8" filter="url(#mc-softGlow)">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </a>
+  
+  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+    <g transform="translate(840, 92)">
+      <rect width="210" height="42" class="btn-bg-alt"/>
+      <text x="105" y="26" class="mono btn-text" text-anchor="middle">CI/CD Pipeline ↗</text>
+      <rect width="210" height="42" rx="6" fill="none" stroke="#c084fc" filter="url(#mc-softGlow)">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </a>
+</g>
+
+<!-- Bottom HUD Status Bar -->
+<path d="M 30 735 L 1170 735" stroke="#22d3ee" stroke-opacity="0.2" stroke-width="1.5"/>
+<text x="60" y="725" class="mono" font-size="12" fill="#94a3b8">OPERATIONAL STATUS // ALL NODES SYNCHRONIZED</text>
+<text x="1140" y="725" class="mono" font-size="12" fill="#38BDF8" text-anchor="end">GAURAV KHALADKAR // CORE SYSTEM READY</text>
+
+</g>
+</svg>
