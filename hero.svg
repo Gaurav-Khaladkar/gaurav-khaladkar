@@ -1,41 +1,49 @@
-<svg viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Gaurav Khaladkar — Software Developer &amp; Agentic AI Engineer">
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Gaurav Khaladkar — Software Developer &amp; Agentic AI Engineer">
   <defs>
     <!-- Background Gradient -->
     <linearGradient id="gh-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#040910"/>
-      <stop offset="50%" stop-color="#061528"/>
-      <stop offset="100%" stop-color="#030c17"/>
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="45%" stop-color="#061830"/>
+      <stop offset="80%" stop-color="#041022"/>
+      <stop offset="100%" stop-color="#02050a"/>
     </linearGradient>
 
     <!-- Aurora Gradients -->
     <radialGradient id="gh-auroraCyan" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.6"/>
       <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="gh-auroraBlue" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.45"/>
-      <stop offset="100%" stop-color="#2563EB" stop-opacity="0"/>
+    <radialGradient id="gh-auroraPurple" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="gh-auroraTeal" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0.40"/>
-      <stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
     </radialGradient>
 
     <!-- Name Shimmer Gradient -->
     <linearGradient id="gh-nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#BAE6FD"/>
-      <stop offset="30%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#E0F2FE"/>
-      <stop offset="70%" stop-color="#22D3EE"/>
+      <stop offset="0%" stop-color="#E0F2FE"/>
+      <stop offset="25%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#FFFFFF"/>
+      <stop offset="75%" stop-color="#22D3EE"/>
       <stop offset="100%" stop-color="#5EEAD4"/>
-      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0; 0.5 0; -0.5 0" dur="6s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.5 0; 0.5 0; -0.5 0" dur="5s" repeatCount="indefinite"/>
     </linearGradient>
 
     <!-- Moving Scanline Gradient -->
     <linearGradient id="gh-scanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#7DD3FC" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#7DD3FC" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Border Glow Line -->
+    <linearGradient id="gh-borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#5EEAD4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0.2"/>
     </linearGradient>
 
     <!-- Glow Filters -->
@@ -47,7 +55,7 @@
       </feMerge>
     </filter>
     <filter id="gh-glow-strong" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5.5" result="blur"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="blur"/>
@@ -55,212 +63,240 @@
       </feMerge>
     </filter>
     <filter id="gh-softblur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="22"/>
+      <feGaussianBlur stdDeviation="25"/>
     </filter>
 
     <clipPath id="gh-frame">
-      <rect x="0" y="0" width="1200" height="380" rx="26" ry="26"/>
+      <rect x="0" y="0" width="1200" height="400" rx="28" ry="28"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#gh-frame)">
     <!-- Base Background -->
-    <rect x="0" y="0" width="1200" height="380" fill="url(#gh-bg)"/>
+    <rect x="0" y="0" width="1200" height="400" fill="url(#gh-bg)"/>
 
     <!-- Ambient Floating Aurora Orbs -->
-    <circle cx="200" cy="80" r="220" fill="url(#gh-auroraCyan)" filter="url(#gh-softblur)">
-      <animate attributeName="cx" values="180;320;180" dur="14s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="80;150;80" dur="18s" repeatCount="indefinite"/>
+    <circle cx="220" cy="90" r="240" fill="url(#gh-auroraCyan)" filter="url(#gh-softblur)">
+      <animate attributeName="cx" values="180;340;180" dur="14s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="90;160;90" dur="18s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="980" cy="240" r="240" fill="url(#gh-auroraBlue)" filter="url(#gh-softblur)">
-      <animate attributeName="cx" values="980;860;980" dur="16s" repeatCount="indefinite"/>
-      <animate attributeName="cy" values="240;160;240" dur="12s" repeatCount="indefinite"/>
+    <circle cx="980" cy="250" r="260" fill="url(#gh-auroraPurple)" filter="url(#gh-softblur)">
+      <animate attributeName="cx" values="980;840;980" dur="16s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="250;170;250" dur="13s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="620" cy="340" r="180" fill="url(#gh-auroraTeal)" filter="url(#gh-softblur)">
-      <animate attributeName="cx" values="620;700;620" dur="20s" repeatCount="indefinite"/>
+    <circle cx="620" cy="350" r="200" fill="url(#gh-auroraTeal)" filter="url(#gh-softblur)">
+      <animate attributeName="cx" values="620;720;620" dur="20s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Circuit grid lines -->
+    <!-- Circuit grid lines & tech mesh -->
     <g fill="none" stroke="#22D3EE" stroke-opacity="0.12" stroke-width="1.2">
-      <path d="M 0,90 L 1200,90"/>
-      <path d="M 0,270 L 1200,270"/>
-      <path d="M 460,0 L 460,380"/>
-      <path d="M 780,0 L 820,100 L 820,380"/>
-      <path d="M 980,0 L 940,120 L 940,380"/>
+      <path d="M 0,95 L 1200,95"/>
+      <path d="M 0,285 L 1200,285"/>
+      <path d="M 470,0 L 470,400"/>
+      <path d="M 760,0 L 810,120 L 810,400"/>
+      <path d="M 970,0 L 930,130 L 930,400"/>
+    </g>
+
+    <!-- Futuristic Hex Grid Overlay in background corner -->
+    <g stroke="#38BDF8" stroke-opacity="0.08" stroke-width="1" fill="none" transform="translate(1000, 20)">
+      <polygon points="30,0 60,17.3 60,52 30,69.3 0,52 0,17.3"/>
+      <polygon points="90,0 120,17.3 120,52 90,69.3 60,52 60,17.3"/>
+      <polygon points="60,52 90,69.3 90,104 60,121.3 30,104 30,69.3"/>
     </g>
 
     <!-- Moving scanline -->
     <rect x="0" y="-10" width="1200" height="4" fill="url(#gh-scanGrad)">
-      <animate attributeName="y" values="-10;390" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-10;410" dur="4.8s" repeatCount="indefinite"/>
     </rect>
 
-    <!-- System Telemetry Watermark & Status -->
-    <text x="1160" y="36" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" font-weight="600" fill="#7C93A8" opacity="0.6">SYSTEM.CORE // V3.8 ONLINE</text>
-    <circle cx="1175" cy="32" r="4" fill="#10B981">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    <!-- Animated Equalizer Waves (Top Right) -->
+    <g transform="translate(1010, 36)" fill="#38BDF8" opacity="0.85">
+      <rect x="0" y="0" width="3" height="14" rx="1.5"><animate attributeName="height" values="4;18;8;14;4" dur="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="6" y="0" width="3" height="14" rx="1.5"><animate attributeName="height" values="14;6;18;10;14" dur="1s" repeatCount="indefinite"/></rect>
+      <rect x="12" y="0" width="3" height="14" rx="1.5"><animate attributeName="height" values="8;16;4;18;8" dur="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="18" y="0" width="3" height="14" rx="1.5"><animate attributeName="height" values="16;8;14;6;16" dur="0.9s" repeatCount="indefinite"/></rect>
+      <rect x="24" y="0" width="3" height="14" rx="1.5"><animate attributeName="height" values="6;18;10;14;6" dur="1.3s" repeatCount="indefinite"/></rect>
+    </g>
+
+    <!-- System Telemetry Status & Watermark -->
+    <text x="1000" y="44" text-anchor="end" font-family="'JetBrains Mono',Consolas,monospace" font-size="12" font-weight="700" fill="#7DD3FC" opacity="0.85">SYSTEM.TELEMETRY // LIVE STREAM</text>
+    <circle cx="1165" cy="40" r="5" fill="#10B981" filter="url(#gh-glow)">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
     </circle>
 
     <!-- Greeting -->
-    <text x="50" y="52" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="20" font-weight="600" fill="#7DD3FC" letter-spacing="1">HELLO WORLD_ I AM</text>
+    <g transform="translate(50, 48)">
+      <rect width="145" height="24" rx="4" fill="#38BDF8" fill-opacity="0.1" stroke="#38BDF8" stroke-opacity="0.4"/>
+      <text x="10" y="16.5" font-family="'JetBrains Mono',Consolas,monospace" font-size="11.5" font-weight="700" fill="#38BDF8" letter-spacing="1.5">INITIALIZE // HI, I'M</text>
+    </g>
 
     <!-- Name Heading -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="5s" repeatCount="indefinite"/>
-      <text x="48" y="112" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="56" font-weight="800" letter-spacing="1" fill="url(#gh-nameGrad)" filter="url(#gh-glow)">GAURAV KHALADKAR</text>
+      <text x="48" y="116" font-family="'Segoe UI',Roboto,Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="0.8" fill="url(#gh-nameGrad)" filter="url(#gh-glow-strong)">GAURAV KHALADKAR</text>
     </g>
 
     <!-- Dynamic Animated Typing Roles Cycle -->
-    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="23" font-weight="700" fill="#E0F2FE">
-      <text x="50" y="158" opacity="0">
+    <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="24" font-weight="700" fill="#E0F2FE">
+      <text x="50" y="162" opacity="0">
         Software Developer<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="0s" repeatCount="indefinite"/>
       </text>
-      <text x="50" y="158" opacity="0">
+      <text x="50" y="162" opacity="0">
         AI &amp; Agentic AI Engineer<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="2.7s" repeatCount="indefinite"/>
       </text>
-      <text x="50" y="158" opacity="0">
+      <text x="50" y="162" opacity="0">
         React.js Frontend Architect<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="5.4s" repeatCount="indefinite"/>
       </text>
-      <text x="50" y="158" opacity="0">
+      <text x="50" y="162" opacity="0">
         Java &amp; Spring Boot Backend<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="8.1s" repeatCount="indefinite"/>
       </text>
-      <text x="50" y="158" opacity="0">
+      <text x="50" y="162" opacity="0">
         Full-Stack Systems Builder<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="10.8s" repeatCount="indefinite"/>
       </text>
     </g>
 
     <!-- Glowing Accent Divider -->
-    <line x1="50" y1="184" x2="680" y2="184" stroke="url(#gh-nameGrad)" stroke-width="1.8" opacity="0.7">
-      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+    <line x1="50" y1="188" x2="690" y2="188" stroke="url(#gh-borderGlow)" stroke-width="2" opacity="0.8">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3.5s" repeatCount="indefinite"/>
     </line>
 
-    <!-- Master of Computer Science Badge -->
-    <rect x="50" y="200" width="138" height="32" rx="16" fill="#38BDF8" fill-opacity="0.1" stroke="#38BDF8" stroke-opacity="0.6"/>
-    <circle cx="68" cy="216" r="4.5" fill="#38BDF8">
+    <!-- Degree Badge (MCS 2024) -->
+    <rect x="50" y="205" width="135" height="32" rx="16" fill="#38BDF8" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.7"/>
+    <circle cx="68" cy="221" r="4.5" fill="#38BDF8">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="82" y="221" font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="1" fill="#BAE6FD">M.C.S. 2024</text>
+    <text x="82" y="226" font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="1" fill="#BAE6FD">M.C.S. 2024</text>
 
     <!-- Oracle Agentic AI Associate Badge -->
-    <rect x="198" y="200" width="175" height="32" rx="16" fill="#5EEAD4" fill-opacity="0.1" stroke="#5EEAD4" stroke-opacity="0.6"/>
-    <circle cx="216" cy="216" r="4.5" fill="#5EEAD4">
+    <rect x="195" y="205" width="180" height="32" rx="16" fill="#C084FC" fill-opacity="0.12" stroke="#C084FC" stroke-opacity="0.7"/>
+    <circle cx="213" cy="221" r="4.5" fill="#C084FC">
       <animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/>
     </circle>
-    <text x="230" y="221" font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="0.5" fill="#5EEAD4">ORACLE AGENTIC AI</text>
+    <text x="227" y="226" font-family="'JetBrains Mono',Consolas,monospace" font-size="12.5" font-weight="700" letter-spacing="0.5" fill="#E9D5FF">ORACLE AGENTIC AI</text>
 
-    <!-- Tagline -->
-    <text x="388" y="221" font-family="'JetBrains Mono',Consolas,monospace" font-size="13.5" fill="#BAE6FD" opacity="0.95">
-      // combining resilient software engineering with AI automation
+    <!-- Tagline (High Contrast) -->
+    <text x="388" y="226" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" font-weight="600" fill="#7DD3FC">
+      // combining software engineering with AI automation
     </text>
 
     <!-- Live Contact Information (Glowing & Accessible) -->
     <g font-family="'JetBrains Mono',Consolas,monospace" font-size="15" font-weight="700">
-      <text x="50" y="272" fill="#38BDF8" filter="url(#gh-glow)">
-        📞 +91 9527298977
-      </text>
-      <text x="50" y="306" fill="#5EEAD4" filter="url(#gh-glow)">
-        ✉ gauravkhaldkar2001@gmail.com
-      </text>
-      <text x="50" y="340" fill="#BAE6FD" filter="url(#gh-glow)">
-        📍 Pune, Maharashtra, India
-      </text>
+      <g transform="translate(50, 275)">
+        <text fill="#38BDF8" filter="url(#gh-glow)">📞 +91 9527298977</text>
+      </g>
+      <g transform="translate(50, 312)">
+        <text fill="#5EEAD4" filter="url(#gh-glow)">✉ gauravkhaldkar2001@gmail.com</text>
+      </g>
+      <g transform="translate(50, 350)">
+        <text fill="#BAE6FD" filter="url(#gh-glow)">📍 Pune, Maharashtra, India</text>
+      </g>
     </g>
 
-    <!-- ═════════════════ TECH TOOLCHAIN MESH (RIGHT SIDE) ═════════════════ -->
-    <g fill="none" stroke="#38BDF8" stroke-width="1.4" stroke-dasharray="3 6" opacity="0.3">
-      <path d="M 800,180 L 900,90 L 1050,90"/>
-      <path d="M 800,180 L 920,260 L 1080,260"/>
-      <path d="M 900,90 L 970,180 L 1110,140"/>
-      <path d="M 920,260 L 970,180 L 1050,90"/>
-      <path d="M 800,180 L 760,260 L 920,260"/>
-      <path d="M 800,180 L 760,100 L 900,90"/>
+    <!-- Status telemetry box (Bottom Left) -->
+    <g transform="translate(380, 265)">
+      <rect width="300" height="95" rx="10" fill="#030b18" fill-opacity="0.75" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1.2"/>
+      <text x="16" y="24" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#38BDF8">SYSTEM METRICS // LIVE</text>
+      <line x1="16" y1="32" x2="284" y2="32" stroke="#38BDF8" stroke-opacity="0.2"/>
+      <text x="16" y="52" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E0F2FE">LATENCY: <tspan fill="#10B981" font-weight="bold">&lt; 12ms</tspan></text>
+      <text x="16" y="72" font-family="'JetBrains Mono',monospace" font-size="12" fill="#E0F2FE">CORE INTEGRITY: <tspan fill="#38BDF8" font-weight="bold">100% [████████]</tspan></text>
+      <text x="16" y="88" font-family="'JetBrains Mono',monospace" font-size="11" fill="#7C93A8">ORCHESTRATING AGENTS // READY</text>
     </g>
 
-    <!-- REACT.JS (Atomic Orbit) -->
-    <g transform="translate(970, 180)">
+    <!-- ═════════════════ TECH TOOLCHAIN ORBITAL MESH (RIGHT SIDE) ═════════════════ -->
+    <g fill="none" stroke="#38BDF8" stroke-width="1.4" stroke-dasharray="3 6" opacity="0.35">
+      <path d="M 800,190 L 900,95 L 1060,95"/>
+      <path d="M 800,190 L 920,280 L 1090,280"/>
+      <path d="M 900,95 L 980,190 L 1110,140"/>
+      <path d="M 920,280 L 980,190 L 1060,95"/>
+      <path d="M 800,190 L 760,280 L 920,280"/>
+      <path d="M 800,190 L 760,105 L 900,95"/>
+    </g>
+
+    <!-- Central Node: REACT.JS (Atomic Orbit with Spin) -->
+    <g transform="translate(980, 190)">
       <g filter="url(#gh-glow-strong)">
-        <circle cx="0" cy="0" r="7" fill="#61DAFB"/>
+        <circle cx="0" cy="0" r="8" fill="#61DAFB"/>
         <g stroke="#61DAFB" stroke-width="2.2" fill="none">
-          <ellipse cx="0" cy="0" rx="30" ry="11">
-            <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="10s" repeatCount="indefinite"/>
+          <ellipse cx="0" cy="0" rx="34" ry="12">
+            <animateTransform attributeName="transform" type="rotate" values="0; 360" dur="8s" repeatCount="indefinite"/>
           </ellipse>
-          <ellipse cx="0" cy="0" rx="30" ry="11">
-            <animateTransform attributeName="transform" type="rotate" values="60; 420" dur="10s" repeatCount="indefinite"/>
+          <ellipse cx="0" cy="0" rx="34" ry="12">
+            <animateTransform attributeName="transform" type="rotate" values="60; 420" dur="8s" repeatCount="indefinite"/>
           </ellipse>
-          <ellipse cx="0" cy="0" rx="30" ry="11">
-            <animateTransform attributeName="transform" type="rotate" values="120; 480" dur="10s" repeatCount="indefinite"/>
+          <ellipse cx="0" cy="0" rx="34" ry="12">
+            <animateTransform attributeName="transform" type="rotate" values="120; 480" dur="8s" repeatCount="indefinite"/>
           </ellipse>
         </g>
       </g>
-      <text y="45" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700" fill="#61DAFB" text-anchor="middle">REACT.JS</text>
+      <text y="50" font-family="'JetBrains Mono',monospace" font-size="12" font-weight="700" fill="#61DAFB" text-anchor="middle">REACT.JS</text>
     </g>
 
     <!-- AGENTIC AI (Neural Core) -->
-    <g transform="translate(900, 90)">
+    <g transform="translate(900, 95)">
       <g filter="url(#gh-glow)">
         <animateTransform attributeName="transform" type="translate" values="0 -5; 0 5; 0 -5" dur="3.5s" repeatCount="indefinite"/>
-        <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="none" stroke="#A855F7" stroke-width="2.5"/>
-        <circle cx="0" cy="0" r="5" fill="#C084FC"/>
-        <line x1="0" y1="0" x2="0" y2="-18" stroke="#A855F7" stroke-width="1.8"/>
-        <line x1="0" y1="0" x2="16" y2="9" stroke="#A855F7" stroke-width="1.8"/>
-        <line x1="0" y1="0" x2="-16" y2="9" stroke="#A855F7" stroke-width="1.8"/>
+        <polygon points="0,-20 18,-10 18,10 0,20 -18,10 -18,-10" fill="none" stroke="#C084FC" stroke-width="2.5"/>
+        <circle cx="0" cy="0" r="6" fill="#C084FC"/>
+        <line x1="0" y1="0" x2="0" y2="-20" stroke="#C084FC" stroke-width="1.8"/>
+        <line x1="0" y1="0" x2="18" y2="10" stroke="#C084FC" stroke-width="1.8"/>
+        <line x1="0" y1="0" x2="-18" y2="10" stroke="#C084FC" stroke-width="1.8"/>
       </g>
-      <text y="32" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#C084FC" text-anchor="middle">AGENTIC AI</text>
+      <text y="36" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#C084FC" text-anchor="middle">AGENTIC AI</text>
     </g>
 
     <!-- JAVA / SPRING BOOT -->
-    <g transform="translate(760, 100)">
+    <g transform="translate(760, 105)">
       <g filter="url(#gh-glow)">
         <animateTransform attributeName="transform" type="translate" values="0 4; 0 -4; 0 4" dur="4s" repeatCount="indefinite"/>
-        <!-- Spring Leaf -->
-        <path d="M-10,12 C-14,2 -4,-12 12,-16 C12,-16 14,4 -2,14 Z" fill="#6DB33F"/>
-        <path d="M-6,8 C0,0 8,-8 12,-16" stroke="#040910" stroke-width="1.5" fill="none"/>
+        <path d="M-12,14 C-16,3 -5,-14 14,-18 C14,-18 16,5 -2,16 Z" fill="#6DB33F"/>
+        <path d="M-8,10 C0,1 10,-8 14,-18" stroke="#040910" stroke-width="1.6" fill="none"/>
       </g>
-      <text y="28" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#6DB33F" text-anchor="middle">SPRING BOOT</text>
+      <text y="32" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#6DB33F" text-anchor="middle">SPRING BOOT</text>
     </g>
 
     <!-- DOCKER -->
-    <g transform="translate(920, 260)">
+    <g transform="translate(920, 280)">
       <g filter="url(#gh-glow)">
         <animateTransform attributeName="transform" type="translate" values="-10 0; 10 0; -10 0" dur="4.5s" repeatCount="indefinite"/>
-        <path d="M-16,4 Q0,14 16,4 Q10,-5 20,-10 L-20,-10 Q-20,0 -16,4 Z" fill="#2496ED"/>
-        <rect x="-12" y="-18" width="6" height="6" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
-        <rect x="-4" y="-18" width="6" height="6" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
-        <rect x="4" y="-18" width="6" height="6" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
-        <rect x="-8" y="-26" width="6" height="6" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
-        <rect x="0" y="-26" width="6" height="6" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
+        <path d="M-18,4 Q0,16 18,4 Q12,-6 22,-12 L-22,-12 Q-22,0 -18,4 Z" fill="#2496ED"/>
+        <rect x="-14" y="-20" width="7" height="7" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
+        <rect x="-5" y="-20" width="7" height="7" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
+        <rect x="4" y="-20" width="7" height="7" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
+        <rect x="-10" y="-29" width="7" height="7" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
+        <rect x="-1" y="-29" width="7" height="7" fill="#040910" stroke="#2496ED" stroke-width="1.5"/>
       </g>
-      <text y="28" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#2496ED" text-anchor="middle">DOCKER</text>
+      <text y="30" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#2496ED" text-anchor="middle">DOCKER</text>
     </g>
 
     <!-- AWS -->
-    <g transform="translate(1080, 260)">
+    <g transform="translate(1090, 280)">
       <g filter="url(#gh-glow)">
         <animateTransform attributeName="transform" type="translate" values="0 -6; 0 6; 0 -6" dur="3.8s" repeatCount="indefinite"/>
-        <text y="-3" font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="18" fill="#FF9900" text-anchor="middle">AWS</text>
-        <path d="M -15,7 Q 0,16 18,3" fill="none" stroke="#FF9900" stroke-width="2.8" stroke-linecap="round"/>
-        <polygon points="15,0 21,3 17,9" fill="#FF9900"/>
+        <text y="-3" font-family="'Segoe UI', Arial, sans-serif" font-weight="900" font-size="20" fill="#FF9900" text-anchor="middle">AWS</text>
+        <path d="M -16,8 Q 0,18 20,4" fill="none" stroke="#FF9900" stroke-width="3" stroke-linecap="round"/>
+        <polygon points="16,1 23,4 18,10" fill="#FF9900"/>
       </g>
-      <text y="30" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#FF9900" text-anchor="middle">CLOUD</text>
+      <text y="32" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#FF9900" text-anchor="middle">CLOUD</text>
     </g>
 
     <!-- POSTGRESQL / MYSQL (Database Node) -->
-    <g transform="translate(1060, 90)">
+    <g transform="translate(1060, 95)">
       <g filter="url(#gh-glow)">
         <animateTransform attributeName="transform" type="translate" values="0 5; 0 -5; 0 5" dur="3.2s" repeatCount="indefinite"/>
-        <ellipse cx="0" cy="-10" rx="14" ry="5" fill="none" stroke="#336791" stroke-width="2.2"/>
-        <path d="M-14,-10 L-14,8 C-14,12 14,12 14,8 L14,-10" fill="none" stroke="#336791" stroke-width="2.2"/>
-        <path d="M-14,-1 C-14,3 14,3 14,-1" fill="none" stroke="#336791" stroke-width="2.2"/>
+        <ellipse cx="0" cy="-10" rx="15" ry="5.5" fill="none" stroke="#38BDF8" stroke-width="2.2"/>
+        <path d="M-15,-10 L-15,9 C-15,13.5 15,13.5 15,9 L15,-10" fill="none" stroke="#38BDF8" stroke-width="2.2"/>
+        <path d="M-15,-1 C-15,3.5 15,3.5 15,-1" fill="none" stroke="#38BDF8" stroke-width="2.2"/>
       </g>
-      <text y="28" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">SQL DB</text>
+      <text y="30" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#38BDF8" text-anchor="middle">SQL DB</text>
     </g>
 
     <!-- REST API / JWT AUTH -->
-    <g transform="translate(770, 260)">
+    <g transform="translate(770, 280)">
       <g filter="url(#gh-glow)">
         <animateTransform attributeName="transform" type="rotate" values="-6; 6; -6" dur="3s" repeatCount="indefinite"/>
         <rect x="-16" y="-12" width="32" height="24" rx="4" fill="#061528" stroke="#10B981" stroke-width="2"/>
@@ -268,7 +304,7 @@
         <circle cx="6" cy="0" r="3" fill="#10B981"/>
         <line x1="-3" y1="0" x2="3" y2="0" stroke="#10B981" stroke-width="1.5"/>
       </g>
-      <text y="28" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#10B981" text-anchor="middle">REST / JWT</text>
+      <text y="30" font-family="'JetBrains Mono',monospace" font-size="11" font-weight="700" fill="#10B981" text-anchor="middle">REST / JWT</text>
     </g>
 
   </g>

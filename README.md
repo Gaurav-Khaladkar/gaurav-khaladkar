@@ -5,31 +5,40 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Gaurav-Khaladkar">
-  <img width="100%" src="./hero.svg?v=1" alt="Gaurav Khaladkar Hero Section" />
+  <img width="100%" src="./hero.svg?v=2" alt="Gaurav Khaladkar Hero Section" />
 </a>
 
 <br/>
 
-<!-- ══════════════ GLACIER LINK BADGES ══════════════ -->
-
-<a href="https://www.linkedin.com/in/gaurav-khaladkar/">
-  <img src="https://img.shields.io/badge/🔗_LINKEDIN-0A66C2?style=for-the-badge&logoColor=white&labelColor=040910" alt="LinkedIn"/>
-</a>&nbsp;
-<a href="mailto:gauravkhaldkar2001@gmail.com">
-  <img src="https://img.shields.io/badge/📧_EMAIL-38BDF8?style=for-the-badge&logoColor=black&labelColor=040910" alt="Email"/>
-</a>&nbsp;
-<a href="tel:+919527298977">
-  <img src="https://img.shields.io/badge/📞_PHONE-22D3EE?style=for-the-badge&logoColor=black&labelColor=040910" alt="Phone"/>
-</a>&nbsp;
+<!-- Dynamic Typing SVG Header -->
 <a href="https://github.com/Gaurav-Khaladkar">
-  <img src="https://img.shields.io/badge/💻_GITHUB-5EEAD4?style=for-the-badge&logoColor=black&labelColor=040910" alt="GitHub"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=2800&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Software+Developer+%7C+AI+%26+Agentic+AI+Specialist;Master+of+Computer+Science+(SPPU+2024);React.js+Frontend+%2B+Java+Spring+Boot+Backend;Oracle+Agentic+AI+Foundations+Associate+(2026);Building+Autonomous%2C+Scalable+%26+Resilient+Systems" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Gaurav-Khaladkar&style=for-the-badge&color=38BDF8&label=SYSTEM+VISITORS&labelColor=040910" alt="Profile Views"/>
+<!-- ══════════════ GLACIER LINK BADGES ══════════════ -->
+
+<a href="https://www.linkedin.com/in/gaurav-khaladkar/">
+  <img src="https://img.shields.io/badge/🔗_LINKEDIN-0A66C2?style=for-the-badge&amp;logoColor=white&amp;labelColor=040910" alt="LinkedIn"/>
+</a>&nbsp;
+<a href="mailto:gauravkhaldkar2001@gmail.com">
+  <img src="https://img.shields.io/badge/📧_EMAIL-38BDF8?style=for-the-badge&amp;logoColor=black&amp;labelColor=040910" alt="Email"/>
+</a>&nbsp;
+<a href="tel:+919527298977">
+  <img src="https://img.shields.io/badge/📞_PHONE-22D3EE?style=for-the-badge&amp;logoColor=black&amp;labelColor=040910" alt="Phone"/>
+</a>&nbsp;
+<a href="https://github.com/Gaurav-Khaladkar">
+  <img src="https://img.shields.io/badge/💻_GITHUB-5EEAD4?style=for-the-badge&amp;logoColor=black&amp;labelColor=040910" alt="GitHub"/>
+</a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Gaurav-Khaladkar&amp;style=for-the-badge&amp;color=38BDF8&amp;label=SYSTEM+VISITORS&amp;labelColor=040910" alt="Profile Views"/>
 &nbsp;
-<img src="https://img.shields.io/github/followers/Gaurav-Khaladkar?style=for-the-badge&color=22D3EE&label=NETWORK+NODES&labelColor=040910&logo=github" alt="Followers"/>
+<img src="https://img.shields.io/github/followers/Gaurav-Khaladkar?style=for-the-badge&amp;color=22D3EE&amp;label=NETWORK+NODES&amp;labelColor=040910&amp;logo=github" alt="Followers"/>
+&nbsp;
+<img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-10B981?style=for-the-badge&amp;logoColor=white&amp;labelColor=040910" alt="Status"/>
 
 </div>
 
@@ -39,21 +48,88 @@
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
+<br/>
+
+### 🌟 `> SYSTEM_PROFILE.yaml`
+
+```yaml
+name: Gaurav Khaladkar
+primary_titles:
+  - Software Developer
+  - AI & Agentic AI Specialist
+  - React.js Frontend Architect
+  - Java & Spring Boot Backend Engineer
+education:
+  - degree: Master of Computer Science (M.C.S.)
+    university: Savitribai Phule Pune University (2024)
+  - degree: Bachelor of Computer Science (B.C.S.)
+    institution: H.V. Desai College, Pune University (2022)
+credentials:
+  - Oracle Certified: Agentic AI Foundations Associate (2026)
+  - Accenture Nordics: Developer Job Simulation
+industry_experience:
+  company: GTL Software Pvt. Ltd., Pune, Maharashtra
+  tenure: Jan 2024 – Jun 2024
+  role: Software Developer (Frontend & REST APIs in Agile Sprints)
+core_philosophy: "Combining solid software engineering with AI-powered features and automation 🚀"
+```
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
 <div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ██              TECH STACK — FUTURISTIC ARSENAL                  ██ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="./tech_stack.svg?v=1" alt="Tech Stack" />
+<img width="100%" src="./tech_stack.svg?v=2" alt="Tech Stack" />
+
+</div>
+
+<br/>
+
+<details open>
+<summary><b>🛠️ Comprehensive Technical Competency Matrix</b></summary>
+<br/>
+
+| Domain | Technologies, Frameworks &amp; Protocols |
+| :--- | :--- |
+| **Artificial Intelligence** | `Agentic AI Workflows`, `Generative AI`, `AI Agents`, `Prompt Engineering`, `LLM Concepts (self-directed)` |
+| **Frontend Development** | `React.js`, `JavaScript (ES6+)`, `TypeScript`, `HTML5`, `CSS3`, `Bootstrap`, `Responsive Web Design` |
+| **Backend &amp; APIs** | `Java`, `Spring Boot`, `REST APIs`, `HTTP / HTTPS`, `JSON`, `JWT Authentication`, `Hibernate ORM` |
+| **Databases &amp; Storage** | `MySQL`, `PostgreSQL`, `Firebase Realtime`, `SQL Queries &amp; Schema Optimization` |
+| **Cloud &amp; DevOps** | `AWS (Intermediate)`, `Docker Containers`, `GitHub Actions CI/CD`, `Git &amp; GitHub`, `Apache Maven` |
+| **Testing &amp; Quality** | `JUnit`, `Postman`, `Chrome DevTools`, `Lighthouse Audit`, `VS Code` |
+| **Performance Engineering** | `Custom React Hooks`, `Lazy Loading`, `Memoisation`, `Code Splitting`, `API Call Optimization` |
+| **Practices &amp; Delivery** | `Agile &amp; Scrum Sprints`, `SDLC Lifecycle`, `Documentation`, `Troubleshooting`, `Cross-Functional Collaboration` |
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>💼 Professional Experience Deep-Dive // GTL Software Pvt. Ltd.</b></summary>
+<br/>
+
+- 🏢 **Company:** GTL Software Pvt. Ltd., Pune, Maharashtra
+- 💼 **Role:** Software Developer (Jan 2024 – Jun 2024)
+- ⚙️ **Key Contributions:**
+  - Built and configured responsive frontend features from business requirements using JavaScript and modern web technologies.
+  - Integrated REST APIs over HTTP/HTTPS, consumed backend services, and rendered dynamic data with comprehensive error handling.
+  - Maintained application documentation covering components, data flows, and configuration steps.
+  - Collaborated with cross-functional teams in Agile sprints with Git pull request reviews.
+
+</details>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+<div align="center">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ██       FULL-STACK & AGENTIC AI — ARCHITECTURE MAP              ██ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="./cloud_architecture.svg?v=1" alt="Cloud Architecture Map" />
+<img width="100%" src="./cloud_architecture.svg?v=2" alt="Cloud Architecture Map" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
@@ -62,7 +138,7 @@
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Gaurav-Khaladkar">
-  <img width="100%" src="./mission_control_v3.svg" alt="Mission Control Projects" />
+  <img width="100%" src="./mission_control_v3.svg?v=2" alt="Mission Control Projects" />
 </a>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -78,13 +154,13 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/oracle_agentic_ai.svg?v=1" alt="Oracle Agentic AI Foundations"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/accenture_nordics.svg?v=1" alt="Accenture Nordics Simulation"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/spring_boot_rest.svg?v=1" alt="Spring Boot &amp; REST APIs"/></a>
+  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/oracle_agentic_ai.svg?v=2" alt="Oracle Agentic AI Foundations"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/accenture_nordics.svg?v=2" alt="Accenture Nordics Simulation"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/spring_boot_rest.svg?v=2" alt="Spring Boot &amp; REST APIs"/></a>
   <br/><br/>
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/react_frontend.svg?v=1" alt="Advanced React.js"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/jwt_security.svg?v=1" alt="JWT Auth &amp; Security"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/sql_database.svg?v=1" alt="Relational SQL &amp; Optimization"/></a>
+  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/react_frontend.svg?v=2" alt="Advanced React.js"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/jwt_security.svg?v=2" alt="JWT Auth &amp; Security"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/sql_database.svg?v=2" alt="Relational SQL &amp; Optimization"/></a>
 </div>
 
 <br/>
@@ -95,7 +171,7 @@
 <!-- ██                EDUCATION & WORK — TIMELINE PROTOCOL           ██ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<img width="100%" src="./education_timeline.svg" alt="Education Timeline" />
+<img width="100%" src="./education_timeline.svg?v=2" alt="Education Timeline" />
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
@@ -121,6 +197,20 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ██              GITHUB TROPHIES                                  ██ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<br/>
+<div align="center">
+  <a href="https://github.com/Gaurav-Khaladkar">
+    <img src="https://github-profile-trophy.vercel.app/?username=Gaurav-Khaladkar&amp;theme=radical&amp;no-frame=false&amp;no-bg=true&amp;margin-w=4" alt="Gaurav's GitHub Trophies" />
+  </a>
+</div>
+<br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 <!-- ██              GITHUB STATS — SYSTEM TELEMETRY                  ██ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
@@ -128,7 +218,7 @@
 <h2 align="center">📊 `> SYSTEM_TELEMETRY.render()`</h2>
 <br/>
 
-<!-- GitHub Stats & Streak Stats -->
+<!-- GitHub Stats & Streak Stats Side by Side -->
 <img width="49%" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Gaurav-Khaladkar&amp;show_icons=true&amp;theme=radical&amp;hide_border=true&amp;bg_color=040910&amp;title_color=38BDF8&amp;icon_color=22D3EE&amp;text_color=c9d1d9&amp;ring_color=38BDF8&amp;count_private=true&amp;include_all_commits=true" alt="GitHub Stats"/>
 &nbsp;
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Gaurav-Khaladkar&amp;theme=radical&amp;hide_border=true&amp;background=040910&amp;ring=38BDF8&amp;fire=38BDF8&amp;currStreakLabel=38BDF8&amp;sideLabels=22D3EE&amp;dates=c9d1d9&amp;currStreakNum=ffffff&amp;sideNums=22D3EE" alt="Streak Stats"/>
@@ -136,7 +226,7 @@
 <br/><br/>
 
 <!-- Top Languages -->
-<img width="42%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gaurav-Khaladkar&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=040910&amp;title_color=38BDF8&amp;text_color=c9d1d9" alt="Top Languages"/>
+<img width="44%" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Gaurav-Khaladkar&amp;layout=compact&amp;theme=radical&amp;hide_border=true&amp;bg_color=040910&amp;title_color=38BDF8&amp;text_color=c9d1d9" alt="Top Languages"/>
 
 <br/><br/>
 
@@ -155,12 +245,12 @@
 <h2 align="center">⚙️ `> METRICS_DASHBOARD.render()`</h2>
 <br/>
 
-<img width="100%" src="./cyber_footer.svg" alt="Cyber Metrics Footer" />
+<img width="100%" src="./cyber_footer.svg?v=2" alt="Cyber Metrics Footer" />
 
 <br/><br/>
 
 <div align="center">
-  <sub>⚡ Designed with passion &amp; precision for <b>Gaurav Khaladkar</b> • Keep building &amp; innovating 🚀</sub>
+  <sub>⚡ Engineered with passion &amp; precision for <b>Gaurav Khaladkar</b> • Innovating with AI &amp; Resilient Code 🚀</sub>
 </div>
 
 </div>
