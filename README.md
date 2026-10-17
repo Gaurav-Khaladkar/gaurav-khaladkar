@@ -12,7 +12,7 @@
 
 <!-- Dynamic Typing SVG Header -->
 <a href="https://github.com/Gaurav-Khaladkar">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=2800&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Software+Developer+%7C+AI+%26+Agentic+AI+Specialist;Master+of+Computer+Science+(SPPU+2024);React.js+Frontend+%2B+Java+Spring+Boot+Backend;Oracle+Agentic+AI+Foundations+Associate+(2026);Building+Autonomous%2C+Scalable+%26+Resilient+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=24&amp;duration=2800&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=750&amp;lines=Linux+System+Administrator+%7C+Infrastructure+%26+Cloud;RHCSA+Certified+%7C+Cisco+CCNA+%7C+Oracle+Agentic+AI;VMware+vSphere+%2B+Docker+%2B+AWS+Cloud;Full-Stack+React.js+%2B+Java+Spring+Boot;Maintaining+99.9%25+Uptime+%26+Automating+with+Bash" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -55,23 +55,32 @@
 ```yaml
 name: Gaurav Khaladkar
 primary_titles:
-  - Software Developer
-  - AI & Agentic AI Specialist
-  - React.js Frontend Architect
-  - Java & Spring Boot Backend Engineer
+  - Linux System Administrator & Infrastructure Support Engineer
+  - VMware & Cloud Infrastructure Specialist (AWS, Docker, KVM)
+  - Full-Stack Systems Developer (React.js, Java Spring Boot, TypeScript)
+  - AI & Agentic AI Specialist (Oracle Certified)
 education:
   - degree: Master of Computer Science (M.C.S.)
     university: Savitribai Phule Pune University (2024)
   - degree: Bachelor of Computer Science (B.C.S.)
     institution: H.V. Desai College, Pune University (2022)
 credentials:
-  - Oracle Certified: Agentic AI Foundations Associate (2026)
-  - Accenture Nordics: Developer Job Simulation
+  - Red Hat Certified System Administrator (RHCSA) — Enterprise Linux
+  - Cisco Certified Network Associate (CCNA) — Routing, Switching & IP Services
+  - Oracle Certified Foundations Associate: Agentic AI (Credential ID: Active 2026 – 2028)
+  - Accenture Nordics: Developer & Systems Job Simulation
 industry_experience:
-  company: GTL Software Pvt. Ltd., Pune, Maharashtra
-  tenure: Jan 2024 – Jun 2024
-  role: Software Developer (Frontend & REST APIs in Agile Sprints)
-core_philosophy: "Combining solid software engineering with AI-powered features and automation 🚀"
+  - company: Mentore Solution, Pune, India
+    tenure: Sept 2024 – Present
+    role: Linux Administrator & Infrastructure Support
+    highlights:
+      - Administering RHEL, CentOS & Ubuntu production servers with 99.9% uptime SLA
+      - Automated Bash shell scripts & cron jobs eliminating 15+ hours of manual administration weekly
+      - Proactive cluster monitoring using Zabbix, Nagios & sar with zero unplanned service disruption
+  - company: GTL Software Pvt. Ltd., Pune, Maharashtra
+    tenure: Jan 2024 – Jun 2024
+    role: Software Developer (Frontend & REST APIs in Agile Sprints)
+core_philosophy: "Maintaining 99.9% high-availability systems with automated pipelines, hardened security & resilient code 🚀"
 ```
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -92,36 +101,62 @@ core_philosophy: "Combining solid software engineering with AI-powered features 
 <summary><b>🛠️ Comprehensive Technical Competency Matrix</b></summary>
 <br/>
 
-| Domain | Technologies, Frameworks &amp; Protocols |
+| Domain | Enterprise Technologies, Frameworks &amp; Protocols |
 | :--- | :--- |
-| **Artificial Intelligence** | `Agentic AI Workflows`, `Generative AI`, `AI Agents`, `Prompt Engineering`, `LLM Concepts (self-directed)` |
-| **Frontend Development** | `React.js`, `JavaScript (ES6+)`, `TypeScript`, `HTML5`, `CSS3`, `Bootstrap`, `Responsive Web Design` |
-| **Backend &amp; APIs** | `Java`, `Spring Boot`, `REST APIs`, `HTTP / HTTPS`, `JSON`, `JWT Authentication`, `Hibernate ORM` |
-| **Databases &amp; Storage** | `MySQL`, `PostgreSQL`, `Firebase Realtime`, `SQL Queries &amp; Schema Optimization` |
-| **Cloud &amp; DevOps** | `AWS (Intermediate)`, `Docker Containers`, `GitHub Actions CI/CD`, `Git &amp; GitHub`, `Apache Maven` |
-| **Testing &amp; Quality** | `JUnit`, `Postman`, `Chrome DevTools`, `Lighthouse Audit`, `VS Code` |
-| **Performance Engineering** | `Custom React Hooks`, `Lazy Loading`, `Memoisation`, `Code Splitting`, `API Call Optimization` |
-| **Practices &amp; Delivery** | `Agile &amp; Scrum Sprints`, `SDLC Lifecycle`, `Documentation`, `Troubleshooting`, `Cross-Functional Collaboration` |
+| **Operating Systems** | `Red Hat Enterprise Linux (RHEL 7/8/9)`, `CentOS`, `Ubuntu Server`, `Debian`, `Windows Server` |
+| **Linux Administration** | `User/Group RBAC`, `POSIX ACLs`, `Logical Volume Manager (LVM)`, `Software RAID`, `Systemd`, `Kernel Tuning (sysctl)`, `Package Mgmt (YUM, DNF, APT, RPM)`, `Cron Automation`, `SSH Hardening`, `Fail2ban`, `Boot/GRUB Diagnostics` |
+| **Networking &amp; Security** | `TCP/IP`, `BIND9 DNS`, `ISC-DHCP`, `VLAN Segmentation`, `NAT`, `Firewalls (iptables, firewalld, UFW)`, `SELinux (Enforcing)`, `SSL/TLS`, `VPN`, `Wireshark`, `tcpdump`, `nmap`, `netstat`, `traceroute`, `dig` |
+| **Virtualization &amp; Cloud**| `VMware ESXi 7.x/8.x`, `VMware vCenter Server`, `vSphere Client`, `Docker Containers`, `KVM`, `AWS (EC2, S3, IAM, VPC)` |
+| **Scripting &amp; Automation**| `Bash Shell Scripting`, `Python (System Automation)`, `Sed`, `AWK`, `Grep`, `Cron Jobs`, `Git &amp; GitHub Version Control` |
+| **Monitoring &amp; Operations**| `Zabbix`, `Nagios`, `Grafana`, `System Log Analysis (/var/log/messages, journalctl, syslog, sar)`, `ITIL Incident Mgmt`, `SLA Compliance`, `RCA &amp; SOP Runbooks`, `Jira`, `ServiceNow` |
+| **Full-Stack Development** | `React.js`, `TypeScript`, `Java 17/21`, `Spring Boot 3`, `REST APIs`, `HTTP/HTTPS`, `JSON`, `JWT Authentication`, `Hibernate ORM`, `Next.js` |
+| **Databases &amp; Storage** | `MySQL / MariaDB (admin, backups, user grants, mysqldump)`, `PostgreSQL`, `MongoDB`, `NFS`, `Samba (SMB)` |
+| **Artificial Intelligence** | `Agentic AI Workflows (Oracle Certified)`, `Generative AI`, `Autonomous AI Agents`, `Prompt Engineering`, `LLM Integration` |
+
+</details>
+
+<br/>
+
+<details open>
+<summary><b>💼 Professional Experience Deep-Dive</b></summary>
+<br/>
+
+#### 🏢 Mentore Solution — Linux Administrator & Infrastructure Support
+* **Tenure:** Sept 2024 – Present | Pune, India
+* **Core Responsibilities & Impact:**
+  - Administer and maintain enterprise production Linux clusters (RHEL, CentOS, Ubuntu), guaranteeing **99.9% system availability**.
+  - Enforce least-privilege security baselines: manage user accounts, sudo privileges, POSIX ACLs, and SELinux enforcement.
+  - Developed automated **Bash shell scripts and cron jobs** for automated disk backups, log rotation, and service health checks—**eliminating 15+ hours of repetitive manual administration weekly**.
+  - Monitor infrastructure health via **Zabbix, Nagios, and sar**; proactively eliminate memory, CPU, and disk I/O bottlenecks before SLA breach.
+  - Harden network perimeters: configure stateful firewall rules with **iptables and firewalld**, implement SSH key-based authentication, and isolate VLAN traffic.
+  - Deliver L1/L2 incident management adhering strictly to ITIL frameworks, authoring Standard Operating Procedures (SOPs) and Root Cause Analyses (RCA).
+
+<br/>
+
+#### 🏢 GTL Software Pvt. Ltd. — Software Developer
+* **Tenure:** Jan 2024 – Jun 2024 | Pune, Maharashtra
+* **Core Responsibilities & Impact:**
+  - Architected and delivered responsive frontend modules using JavaScript, React.js, and modern web standards.
+  - Integrated REST APIs over HTTP/HTTPS with comprehensive error-handling and real-time state management.
+  - Participated in Agile Scrum sprints, performing code reviews and Git pull request workflows.
 
 </details>
 
 <br/>
 
 <details>
-<summary><b>💼 Professional Experience Deep-Dive // GTL Software Pvt. Ltd.</b></summary>
+<summary><b>🔬 Key Enterprise Infrastructure &amp; Lab Projects</b></summary>
 <br/>
 
-- 🏢 **Company:** GTL Software Pvt. Ltd., Pune, Maharashtra
-- 💼 **Role:** Software Developer (Jan 2024 – Jun 2024)
-- ⚙️ **Key Contributions:**
-  - Built and configured responsive frontend features from business requirements using JavaScript and modern web technologies.
-  - Integrated REST APIs over HTTP/HTTPS, consumed backend services, and rendered dynamic data with comprehensive error handling.
-  - Maintained application documentation covering components, data flows, and configuration steps.
-  - Collaborated with cross-functional teams in Agile sprints with Git pull request reviews.
+| Project | Environment &amp; Stack | Architecture &amp; Key Deliverables |
+| :--- | :--- | :--- |
+| **Automated Linux Server Health Monitoring &amp; Alerting** | `Linux`, `Bash`, `Python`, `Zabbix`, `Cron`, `SMTP`, `Systemd` | Automated cluster monitoring tracking vitals; regex log auditing of `/var/log/messages`; automated SMTP alert notifications slashing MTTD by 40%. |
+| **Enterprise VMware Virtualization &amp; Datacenter Lab** | `VMware ESXi 7.x/8.x`, `vCenter Server`, `vSphere`, `vSwitch`, `NFS Datastores` | Enterprise datacenter virtualization; vSwitch isolated port groups & VLAN tagging; VM lifecycle provisioning and snapshot schedules. |
+| **Secure Enterprise Network Infrastructure Lab** | `RHEL`, `BIND9`, `ISC-DHCP`, `iptables`, `firewalld`, `VLAN`, `Wireshark` | Master-slave DNS with BIND9, dynamic IP assignment via ISC-DHCP, zero-trust stateful firewall filtering, and packet diagnostic verification. |
+| **Automated Backup, Disaster Recovery &amp; Log Rotation** | `Bash`, `Rsync`, `Tar`, `Cron`, `GPG Encryption`, `LVM Snapshots` | Automated disaster recovery pipeline with differential/incremental Rsync backups, GPG encryption, scheduled SFTP transfers, and point-in-time LVM snapshots. |
+| **High-Availability Web &amp; Database Stack** | `Nginx`, `Apache HTTP Server`, `MySQL / MariaDB`, `SSL/TLS`, `Keepalived` | Reverse proxy and load balancing across Apache backends, automated SSL/TLS hardening, and automated database failover. |
 
-</details>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+</details><img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 <div align="center">
 
