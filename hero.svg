@@ -139,23 +139,23 @@
     <!-- Dynamic Animated Typing Roles Cycle -->
     <g font-family="'JetBrains Mono','Fira Code',Consolas,monospace" font-size="24" font-weight="700" fill="#E0F2FE">
       <text x="50" y="162" opacity="0">
-        Linux System Administrator<tspan fill="#38BDF8">▌</tspan>
+        Software Developer<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="0s" repeatCount="indefinite"/>
       </text>
       <text x="50" y="162" opacity="0">
-        Infrastructure &amp; VMware Support<tspan fill="#38BDF8">▌</tspan>
+        AI &amp; Agentic AI Engineer<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="2.7s" repeatCount="indefinite"/>
       </text>
       <text x="50" y="162" opacity="0">
-        RHCSA &amp; Cisco CCNA Certified<tspan fill="#38BDF8">▌</tspan>
+        React.js Frontend Architect<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="5.4s" repeatCount="indefinite"/>
       </text>
       <text x="50" y="162" opacity="0">
-        Full-Stack Systems Developer<tspan fill="#38BDF8">▌</tspan>
+        Java &amp; Spring Boot Backend<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="8.1s" repeatCount="indefinite"/>
       </text>
       <text x="50" y="162" opacity="0">
-        Oracle Certified Agentic AI<tspan fill="#38BDF8">▌</tspan>
+        Full-Stack Systems Builder<tspan fill="#38BDF8">▌</tspan>
         <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.22;0.2201;1" dur="12s" begin="10.8s" repeatCount="indefinite"/>
       </text>
     </g>
@@ -181,7 +181,7 @@
 
     <!-- Tagline (High Contrast) -->
     <text x="388" y="226" font-family="'JetBrains Mono',Consolas,monospace" font-size="13" font-weight="600" fill="#7DD3FC">
-      // 99.9% uptime • automated infra • resilient code
+      // combining software engineering with AI automation
     </text>
 
     <!-- Live Contact Information (Glowing & Accessible) -->
