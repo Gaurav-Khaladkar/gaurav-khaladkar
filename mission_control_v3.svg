@@ -82,16 +82,16 @@
 </text>
 <text x="1140" y="70" class="mono" font-size="12" fill="#7C93A8" text-anchor="end">TELEMETRY // ALL SYSTEMS FUNCTIONAL</text>
 
-<!-- ════════════════════════ PROJECT 1: REAL ESTATE MANAGEMENT SYSTEM ════════════════════════ -->
+<!-- ════════════════════════ PROJECT 1: MICROCAMPUS ENTERPRISE LMS ════════════════════════ -->
 <g transform="translate(60, 130)">
   <rect width="1080" height="185" class="card-bg"/>
   
-  <text x="32" y="44" font-size="24">🏢</text>
-  <text x="75" y="42" class="title">Real Estate Management System &amp; Enterprise Property Engine</text>
+  <text x="32" y="44" font-size="24">🎓</text>
+  <text x="75" y="42" class="title">MicroCampus — Scalable Academic LMS &amp; RBAC Management API</text>
   
   <text x="75" y="72" class="desc">
-    <tspan x="75" dy="0">Engineered an end-to-end full-stack property listing, booking, and document management platform with React &amp; Spring Boot.</tspan>
-    <tspan x="75" dy="23">Implemented custom React hooks, lazy loading, memoisation, code splitting, JWT authentication, and optimized MySQL queries.</tspan>
+    <tspan x="75" dy="0">Production REST API powering campus administrative workflows, course curriculums, and automated quizzes.</tspan>
+    <tspan x="75" dy="23">Built with TypeScript, Node.js, Express, MongoDB Mongoose, Multer file handling, and granular JWT RBAC security.</tspan>
   </text>
   
   <!-- Telemetry Metrics Bar for Project 1 -->
@@ -109,22 +109,22 @@
   <!-- Tags -->
   <g transform="translate(75, 154)">
     <rect x="0" y="-14" width="82" height="20" rx="4" fill="#5eead4" fill-opacity="0.1"/>
-    <text x="8" y="0" class="mono tag">[React.js]</text>
+    <text x="8" y="0" class="mono tag">[TypeScript]</text>
 
     <rect x="92" y="-14" width="98" height="20" rx="4" fill="#5eead4" fill-opacity="0.1"/>
-    <text x="100" y="0" class="mono tag">[Spring Boot]</text>
+    <text x="100" y="0" class="mono tag">[Node.js]</text>
 
     <rect x="200" y="-14" width="88" height="20" rx="4" fill="#5eead4" fill-opacity="0.1"/>
-    <text x="208" y="0" class="mono tag">[REST APIs]</text>
+    <text x="208" y="0" class="mono tag">[Express.js]</text>
 
     <rect x="298" y="-14" width="82" height="20" rx="4" fill="#5eead4" fill-opacity="0.1"/>
-    <text x="306" y="0" class="mono tag">[JWT Auth]</text>
+    <text x="306" y="0" class="mono tag">[MongoDB]</text>
 
     <rect x="390" y="-14" width="68" height="20" rx="4" fill="#5eead4" fill-opacity="0.1"/>
-    <text x="398" y="0" class="mono tag">[MySQL]</text>
+    <text x="398" y="0" class="mono tag">[JWT RBAC]</text>
 
     <rect x="468" y="-14" width="98" height="20" rx="4" fill="#5eead4" fill-opacity="0.1"/>
-    <text x="476" y="0" class="mono tag">[Optimization]</text>
+    <text x="476" y="0" class="mono tag">[Postman Suite]</text>
   </g>
   
   <!-- Action Buttons -->
