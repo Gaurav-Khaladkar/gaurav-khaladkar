@@ -128,7 +128,7 @@
   </g>
   
   <!-- Action Buttons -->
-  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+  <a href="https://github.com/Gaurav-Khaladkar/MicroCampus" target="_blank">
     <g transform="translate(840, 36)">
       <rect width="210" height="44" class="btn-bg"/>
       <text x="105" y="27" class="mono btn-text" text-anchor="middle">View Repository ↗</text>
@@ -138,7 +138,7 @@
     </g>
   </a>
   
-  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+  <a href="https://github.com/Gaurav-Khaladkar/MicroCampus#readme" target="_blank">
     <g transform="translate(840, 100)">
       <rect width="210" height="44" class="btn-bg-alt"/>
       <text x="105" y="27" class="mono btn-text" text-anchor="middle">System Architecture ↗</text>
@@ -192,7 +192,7 @@
     <text x="552" y="0" class="mono tag" fill="#c084fc">[Docker]</text>
   </g>
   
-  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+  <a href="https://github.com/Gaurav-Khaladkar/AI-Based-Automated-Software-Testing-Platform" target="_blank">
     <g transform="translate(840, 36)">
       <rect width="210" height="44" class="btn-bg"/>
       <text x="105" y="27" class="mono btn-text" text-anchor="middle">View AI Engine ↗</text>
@@ -202,7 +202,7 @@
     </g>
   </a>
   
-  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+  <a href="https://github.com/Gaurav-Khaladkar/AI-Based-Automated-Software-Testing-Platform#readme" target="_blank">
     <g transform="translate(840, 100)">
       <rect width="210" height="44" class="btn-bg-alt"/>
       <text x="105" y="27" class="mono btn-text" text-anchor="middle">Agent Architecture ↗</text>
@@ -256,7 +256,7 @@
     <text x="503" y="0" class="mono tag" fill="#fb923c">[AWS Cloud]</text>
   </g>
   
-  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+  <a href="https://github.com/Gaurav-Khaladkar/java-devops-enterprise-cicd" target="_blank">
     <g transform="translate(840, 36)">
       <rect width="210" height="44" class="btn-bg"/>
       <text x="105" y="27" class="mono btn-text" text-anchor="middle">View DevOps Spec ↗</text>
@@ -266,7 +266,7 @@
     </g>
   </a>
   
-  <a href="https://github.com/Gaurav-Khaladkar" target="_blank">
+  <a href="https://github.com/Gaurav-Khaladkar/java-devops-enterprise-cicd#readme" target="_blank">
     <g transform="translate(840, 100)">
       <rect width="210" height="44" class="btn-bg-alt"/>
       <text x="105" y="27" class="mono btn-text" text-anchor="middle">CI/CD Pipeline ↗</text>

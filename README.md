@@ -137,7 +137,7 @@ core_philosophy: "Combining solid software engineering with AI-powered features 
 <!-- ██              PROJECTS — MISSION CONTROL DASHBOARD             ██ -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<a href="https://github.com/Gaurav-Khaladkar">
+<a href="https://github.com/Gaurav-Khaladkar?tab=repositories">
   <img width="100%" src="./mission_control_v3.svg?v=2" alt="Mission Control Projects" />
 </a>
 
@@ -154,13 +154,13 @@ core_philosophy: "Combining solid software engineering with AI-powered features 
 <br/>
 
 <div align="center">
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/oracle_agentic_ai.svg?v=2" alt="Oracle Agentic AI Foundations"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/accenture_nordics.svg?v=2" alt="Accenture Nordics Simulation"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/spring_boot_rest.svg?v=2" alt="Spring Boot &amp; REST APIs"/></a>
+  <a href="https://www.linkedin.com/in/gaurav-khaladkar/details/certifications/" target="_blank"><img width="32%" src="./certs/oracle_agentic_ai.svg?v=2" alt="Oracle Agentic AI Foundations"/></a>&nbsp;
+  <a href="https://www.theforage.com/" target="_blank"><img width="32%" src="./certs/accenture_nordics.svg?v=2" alt="Accenture Nordics Simulation"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar/java-devops-enterprise-cicd" target="_blank"><img width="32%" src="./certs/spring_boot_rest.svg?v=2" alt="Spring Boot &amp; REST APIs"/></a>
   <br/><br/>
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/react_frontend.svg?v=2" alt="Advanced React.js"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/jwt_security.svg?v=2" alt="JWT Auth &amp; Security"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img width="32%" src="./certs/sql_database.svg?v=2" alt="Relational SQL &amp; Optimization"/></a>
+  <a href="https://github.com/Gaurav-Khaladkar/ai-chat-workbench" target="_blank"><img width="32%" src="./certs/react_frontend.svg?v=2" alt="Advanced React.js"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar/MicroCampus" target="_blank"><img width="32%" src="./certs/jwt_security.svg?v=2" alt="JWT Auth &amp; Security"/></a>&nbsp;
+  <a href="https://github.com/Gaurav-Khaladkar/AI-Based-Automated-Software-Testing-Platform" target="_blank"><img width="32%" src="./certs/sql_database.svg?v=2" alt="Relational SQL &amp; Optimization"/></a>
 </div>
 
 <br/>
@@ -188,8 +188,8 @@ core_philosophy: "Combining solid software engineering with AI-powered features 
 <div align="center">
   <a href="https://www.linkedin.com/in/gaurav-khaladkar/"><img src="./profiles/linkedin.svg" width="24%" alt="LinkedIn"/></a>&nbsp;
   <a href="https://github.com/Gaurav-Khaladkar"><img src="./profiles/github.svg" width="24%" alt="GitHub"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img src="./profiles/oracleedu.svg" width="24%" alt="Oracle Edu"/></a>&nbsp;
-  <a href="https://github.com/Gaurav-Khaladkar"><img src="./profiles/forage.svg" width="24%" alt="Forage Accenture"/></a>
+  <a href="https://www.linkedin.com/in/gaurav-khaladkar/details/certifications/" target="_blank"><img src="./profiles/oracleedu.svg" width="24%" alt="Oracle Edu"/></a>&nbsp;
+  <a href="https://www.theforage.com/" target="_blank"><img src="./profiles/forage.svg" width="24%" alt="Forage Accenture"/></a>
 </div>
 
 <br/>
