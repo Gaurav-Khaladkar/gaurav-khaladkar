@@ -138,8 +138,56 @@ core_philosophy: "Combining solid software engineering with AI-powered features 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <a href="https://github.com/Gaurav-Khaladkar?tab=repositories">
-  <img width="100%" src="./mission_control_v3.svg?v=2" alt="Mission Control Projects" />
+  <img width="100%" src="./mission_control_v3.svg?v=3" alt="Mission Control Projects" />
 </a>
+
+<br/><br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- ██            ENTERPRISE PRODUCTION SYSTEMS MATRIX               ██ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<h2 align="center">⚡ `> PRODUCTION_DEPLOYMENTS.telemetry()`</h2>
+<p align="center"><b>Production-grade microservices, cloud infrastructure, AI models, and full-stack platforms engineered by Gaurav Khaladkar</b></p>
+
+<br/>
+
+### ☁️ Domain I: Cloud Infrastructure, DevOps & FinOps Automation
+
+| System / Repository | Architecture & Core Technologies | Enterprise Impact & Key Metrics | Direct Access |
+| :--- | :--- | :--- | :--- |
+| **[`java-devops-enterprise-cicd`](https://github.com/Gaurav-Khaladkar/java-devops-enterprise-cicd)** | `Java 17 LTS` `Spring Boot 3` `Kubernetes v1.30` `AWS EKS` `Terraform` `Helm 3` `Jenkins` `SonarQube` `Trivy` | 13-stage automated CI/CD pipeline, zero-trust network policies, multi-stage hardened Docker runtime, non-root execution (UID 1001). | [Explore Pipeline ↗](https://github.com/Gaurav-Khaladkar/java-devops-enterprise-cicd) • [Docs ↗](https://github.com/Gaurav-Khaladkar/java-devops-enterprise-cicd#readme) |
+| **[`aws-cost-optimization-automation`](https://github.com/Gaurav-Khaladkar/aws-cost-optimization-automation)** | `Python` `AWS Lambda` `EventBridge` `CloudWatch` `Amazon EC2/EBS` `FinOps Governance` `Terraform` | Automated serverless FinOps guardrail purging stale orphan EBS snapshots; eliminates wasted cloud spend with granular IAM policies. | [View Automation ↗](https://github.com/Gaurav-Khaladkar/aws-cost-optimization-automation) • [Runbook ↗](https://github.com/Gaurav-Khaladkar/aws-cost-optimization-automation#readme) |
+
+<br/>
+
+### 🤖 Domain II: Artificial Intelligence, Agentic Systems & Automated Testing
+
+| System / Repository | Architecture & Core Technologies | Enterprise Impact & Key Metrics | Direct Access |
+| :--- | :--- | :--- | :--- |
+| **[`AI-Based-Automated-Software-Testing-Platform`](https://github.com/Gaurav-Khaladkar/AI-Based-Automated-Software-Testing-Platform)** | `Spring Boot 3` `React 18` `Python ML` `GradientBoosting` `Selenium WebDriver` `Docker Compose` | Machine learning defect prediction over cyclomatic code churn; self-healing locator engine reducing CI test breakage by 85%. | [Inspect ML Platform ↗](https://github.com/Gaurav-Khaladkar/AI-Based-Automated-Software-Testing-Platform) • [C4 Specs ↗](https://github.com/Gaurav-Khaladkar/AI-Based-Automated-Software-Testing-Platform#readme) |
+| **[`ai-interview-copilot`](https://github.com/Gaurav-Khaladkar/ai-interview-copilot)** | `Java 17/21` `JavaFX Desktop` `OpenAI Whisper` `Ollama LLMs` `In-Memory Sandbox` `SQLite` | Real-time voice mock interview copilot, automated candidate resume ATS scoring, STAR method evaluation, and isolated code compiler sandbox. | [Launch Copilot ↗](https://github.com/Gaurav-Khaladkar/ai-interview-copilot) • [Setup Guide ↗](https://github.com/Gaurav-Khaladkar/ai-interview-copilot#readme) |
+| **[`ai-chat-workbench`](https://github.com/Gaurav-Khaladkar/ai-chat-workbench)** | `Next.js App Router` `React 19` `TypeScript` `Tailwind CSS` `LLM Streaming` `Responsive UI` | Dynamic AI workbench featuring multi-model selection, prompt temperature tuning, glassmorphic themes, and responsive chat simulation. | [Open Workbench ↗](https://github.com/Gaurav-Khaladkar/ai-chat-workbench) • [Architecture ↗](https://github.com/Gaurav-Khaladkar/ai-chat-workbench#readme) |
+| **[`Chatgpt`](https://github.com/Gaurav-Khaladkar/Chatgpt)** | `Node.js` `Express` `React` `OpenAI API` `JWT Auth` `Persistent Session Store` | Full-stack conversational AI application integrating generative LLM endpoints, token streaming, and conversation memory. | [View App ↗](https://github.com/Gaurav-Khaladkar/Chatgpt) • [API Contracts ↗](https://github.com/Gaurav-Khaladkar/Chatgpt#readme) |
+
+<br/>
+
+### 📱 Domain III: Mobile Apps & Hyperlocal Consumer Systems
+
+| System / Repository | Architecture & Core Technologies | Enterprise Impact & Key Metrics | Direct Access |
+| :--- | :--- | :--- | :--- |
+| **[`Startup-Idea-Evaluator-AI-Voting-App`](https://github.com/Gaurav-Khaladkar/Startup-Idea-Evaluator-AI-Voting-App)** | `React Native` `Expo SDK 51` `TypeScript` `AsyncStorage` `EAS Android Build` `Gradients` | Founder venture submission portal with algorithmic feasibility scoring (0–100), duplicate-vote prevention, and dynamic top-5 leaderboard. | [Mobile App ↗](https://github.com/Gaurav-Khaladkar/Startup-Idea-Evaluator-AI-Voting-App) • [Build Guide ↗](https://github.com/Gaurav-Khaladkar/Startup-Idea-Evaluator-AI-Voting-App#readme) |
+| **[`UrbanThali-Foods`](https://github.com/Gaurav-Khaladkar/UrbanThali-Foods)** | `TypeScript Turborepo` `Monorepo` `Microservices` `Next.js` `React Native` `Docker` | Enterprise cloud kitchen and food dispatch platform architected as a modular monorepo sharing UI packages, API schemas, and types. | [Browse Monorepo ↗](https://github.com/Gaurav-Khaladkar/UrbanThali-Foods) • [Architecture ↗](https://github.com/Gaurav-Khaladkar/UrbanThali-Foods#readme) |
+| **[`Zomatoclone_AI`](https://github.com/Gaurav-Khaladkar/Zomatoclone_AI)** | `React 18` `Spring Boot 3` `Android Native Java` `MySQL 8` `Microservices` `REST APIs` | Hyperlocal food delivery ecosystem (Zestora) with multi-criteria filtering, live driver status tracking, and merchant kitchen console. | [Explore Zestora ↗](https://github.com/Gaurav-Khaladkar/Zomatoclone_AI) • [API Specs ↗](https://github.com/Gaurav-Khaladkar/Zomatoclone_AI#readme) |
+
+<br/>
+
+### 🎓 Domain IV: Enterprise Academic LMS & E-Commerce Platforms
+
+| System / Repository | Architecture & Core Technologies | Enterprise Impact & Key Metrics | Direct Access |
+| :--- | :--- | :--- | :--- |
+| **[`MicroCampus`](https://github.com/Gaurav-Khaladkar/MicroCampus)** | `TypeScript 5.9` `Node.js 20` `Express 4.22` `MongoDB Mongoose` `JWT RBAC` `Postman API Suite` | Academic campus LMS engine managing role-based access (Admin, Faculty, Student), syllabus courses, Multer lecture note uploads, and quizzes. | [API Gateway ↗](https://github.com/Gaurav-Khaladkar/MicroCampus) • [Postman Suite ↗](https://github.com/Gaurav-Khaladkar/MicroCampus#readme) |
+| **[`Bookshop`](https://github.com/Gaurav-Khaladkar/Bookshop)** | `React 18` `Express 5` `MySQL 8` `Bcrypt` `JWT Security` `Multer File Storage` | Full-stack marketplace (BookHub) with dynamic catalog search, multipart cover image uploads, cart validation, and relational transaction safety. | [Visit Bookstore ↗](https://github.com/Gaurav-Khaladkar/Bookshop) • [Database Specs ↗](https://github.com/Gaurav-Khaladkar/Bookshop#readme) |
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
